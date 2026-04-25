@@ -1,0 +1,29 @@
+{
+  "target": "popular_company = first qualifying non-intern entry job at a company whose rcid or ultimate_parent_rcid appears in data.xlsx; all other companies are unpopular",
+  "rows_modeled": 15140,
+  "excel_popular_rcids": 106,
+  "positive_users": 1948,
+  "positive_rate": 0.12866578599735798,
+  "important_skills_for_pca": 250,
+  "pca_variance_pc1": 0.04494672413171435,
+  "pca_variance_pc2": 0.020184812545554383,
+  "clusters": 6,
+  "best_core_model": "random_forest",
+  "best_core_auc": 0.8394247779008962,
+  "best_core_accuracy": 0.8619550858652576,
+  "core_features": [
+    "school",
+    "major",
+    "university_country",
+    "user_country",
+    "skill_cluster",
+    "entry_job_year",
+    "n_skills",
+    "prestige",
+    "numconnections",
+    "skill_text"
+  ],
+  "demographic_features_used": [],
+  "skill_regression_auc": 0.7569550553060788,
+  "skill_regression_accuracy": 0.5868560105680317
+}

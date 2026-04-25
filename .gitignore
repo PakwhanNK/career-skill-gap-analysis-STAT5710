@@ -1,0 +1,29 @@
+.DS_Store
+**/.DS_Store
+
+# Raw data files too large for normal GitHub pushes.
+data/Revelio Companies_ALL.csv
+data/Revelio Education_ALL.csv
+data/user_skills.csv
+data1.csv
+data2.csv
+data3.csv
+
+# Raw row-level data with user/profile/job-level information.
+data/filtered_grouped_positions.csv
+data/user_ids.txt
+data/user_profiles.csv
+
+# Older exploratory runs; final deliverables are in outputs/.
+supply_side_outputs/
+top_company_prediction/
+
+# Generated row-level/model artifacts. Keep aggregate tables, figures, report, and scripts.
+outputs/*.parquet
+outputs/models/
+outputs/tables/features_*_sample.csv
+
+# Local Python/cache noise.
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

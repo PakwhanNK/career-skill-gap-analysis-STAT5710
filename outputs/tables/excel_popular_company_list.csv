@@ -1,0 +1,107 @@
+(linkedin_url) Company LinkedIn URL,rcid,company,(naics_code) NAICS industry code,hq_state,industry,rcid_int
+http://linkedin.com/company/accenture,1230770,Accenture Plc,541519,Leinster,IT Consulting Services,1230770
+http://linkedin.com/company/adobe,766625,"Adobe, Inc.",513210,California,Information Technology Services,766625
+http://linkedin.com/company/amazon,1359692,"Amazon.com, Inc.",455219,Washington,Digital Commerce Services,1359692
+http://linkedin.com/company/american-express,1104097,American Express Co.,522210,New York,Information Technology Services,1104097
+http://linkedin.com/company/amgen,906797,"Amgen, Inc.",325414,California,Pharmaceuticals,906797
+http://linkedin.com/company/anduril,300759,"Anduril Industries, Inc.",513210,California,Aerospace and Defense,300759
+http://linkedin.com/company/anheuser-busch-inbev,2018508,Anheuser Busch Inbev,325612,Pharmaceuticals,,2018508
+http://linkedin.com/company/apollo-global-management-inc,21048147,"Apollo Global Management, Inc.",523940,New York,Financial Services,21048147
+http://linkedin.com/company/apple,1232095,"Apple, Inc.",334220,California,Electronics Manufacturing,1232095
+http://linkedin.com/company/applied-materials,1246081,"Applied Materials, Inc.",333242,California,Electronics Manufacturing,1246081
+http://linkedin.com/company/att,97840,"AT&T, Inc.",517112,Texas,Telecommunications Services,97840
+http://linkedin.com/company/bain-and-company,1266369,"Bain & Co., Inc.",541618,Massachusetts,Consulting and Advisory Services,1266369
+http://linkedin.com/company/bain-capital,675214,Bain Capital LP,523999,Massachusetts,Financial Services,675214
+http://linkedin.com/company/balyasny-asset-management-l.p.,41000,Balyasny Asset Management LP,523940,Illinois,Financial Services,41000
+http://linkedin.com/company/bank-of-america,393528,Bank of America Corp.,522110,North Carolina,Financial Services,393528
+http://linkedin.com/company/barclays-bank,22151194,Barclays PLC,523150,England,Financial Services,22151194
+http://linkedin.com/company/biogen,2359135,Biogen,325620,Gauteng,Wellness Products,2359135
+http://linkedin.com/company/blackrock,1144595,"BlackRock Finance, Inc.",523940,New York,Financial Services,1144595
+http://linkedin.com/company/blue-origin,136845,Blue Origin Washington LLC,336414,Washington,Energy and Resources,136845
+http://linkedin.com/company/bnp-paribas,792141,BNP Paribas SA,522110,Ile-de-France,Financial Services,792141
+http://linkedin.com/company/boeing,961524,The Boeing Co.,336411,Virginia,Aerospace and Defense,961524
+http://linkedin.com/company/boston-consulting-group,242992,"The Boston Consulting Group, Inc.",541618,Massachusetts,Consulting and Advisory Services,242992
+http://linkedin.com/company/bristol-myers-squibb,1122234,Bristol Myers Squibb Co.,325412,New Jersey,Pharmaceuticals,1122234
+http://linkedin.com/company/broadridge-financial-solutions,6968218,Broadridge (Japan) Ltd.,541511,New York,Information Technology Services,6968218
+http://linkedin.com/company/capital-group,826397,"The Capital Group Cos., Inc.",523940,California,Financial Services,826397
+http://linkedin.com/company/capital-one,22142112,Capital One Financial Corp.,522210,Virginia,Financial Services,22142112
+http://linkedin.com/company/caterpillar-inc,1047983,"Caterpillar, Inc.",333120,Texas,Energy and Resources,1047983
+http://linkedin.com/company/centerpoint-energy,445083,"CenterPoint Energy, Inc.",221122,Texas,Energy and Resources,445083
+http://linkedin.com/company/chevron,635563,Chevron Corp.,211120,Texas,Energy and Resources,635563
+http://linkedin.com/company/choice-hotels-international,22144010,"Choice Hotels International, Inc.",721110,Maryland,Hospitality and Tourism Management,22144010
+http://linkedin.com/company/cisco,1400574,"Cisco Systems, Inc.",334210,California,Information Technology Services,1400574
+http://linkedin.com/company/citi,267301,"Citigroup, Inc.",522110,New York,Financial Services,267301
+http://linkedin.com/company/deloitte,20937770,Deloitte LLP (New York),541211,New York,Consulting and Advisory Services,20937770
+http://linkedin.com/company/deutsche-bank,532877,Deutsche Bank AG,523150,Hesse,Financial Services,532877
+http://linkedin.com/company/doximity,1416523,"Doximity, Inc.",513210,California,Biotech and Healthcare Services,1416523
+http://linkedin.com/company/ernstandyoung,1301557,Ernst & Young Global Ltd.,541213,England,Consulting and Advisory Services,1301557
+http://linkedin.com/company/evercore-inc,22148155,"Evercore, Inc.",523150,New York,Financial Services,22148155
+http://linkedin.com/company/exxonmobil,912348,Exxon Mobil Corp.,211120,Texas,Energy and Resources,912348
+http://linkedin.com/company/ford-motor-company,860320,Ford Motor Co.,336110,Michigan,Automotive Services,860320
+http://linkedin.com/company/general-motors,1398143,General Motors Co.,336110,Michigan,Automotive Services,1398143
+http://linkedin.com/company/goldman-sachs,20923715,"The Goldman Sachs Group, Inc.",523150,New York,Financial Services,20923715
+http://linkedin.com/company/google,233459,Google LLC,519290,California,Digital Commerce Services,233459
+http://linkedin.com/company/houlihan-lokey,279074,"Houlihan Lokey, Inc.",523150,California,Financial Services,279074
+http://linkedin.com/company/ibm,22142390,International Business Machines Corp.,541519,New York,Information Technology Services,22142390
+http://linkedin.com/company/infosys,809141,Infosys Ltd.,541511,Karnataka,IT Consulting Services,809141
+http://linkedin.com/company/intuit,1050907,"Intuit, Inc.",513210,California,Information Technology Services,1050907
+http://linkedin.com/company/jefferies,22142421,"Jefferies Financial Group, Inc.",523150,New York,Financial Services,22142421
+http://linkedin.com/company/john-deere,1235260,Deere & Co.,333111,Illinois,Industrial Manufacturing,1235260
+http://linkedin.com/company/jpmorganchase,543448,JPMorgan Chase & Co.,522110,New York,Financial Services,543448
+http://linkedin.com/company/kkr,786785,"KKR Group Co., Inc.",523910,New York,Financial Services,786785
+http://linkedin.com/company/kpmg,690100,KPMG LLP,541211,New York,Consulting and Advisory Services,690100
+http://linkedin.com/company/mastercard,7963787,"Mastercard, Inc.",522320,New York,Information Technology Services,7963787
+http://linkedin.com/company/mckinsey,22150963,"McKinsey & Co., Inc.",541611,New York,Consulting and Advisory Services,22150963
+http://linkedin.com/company/microsoft,350953,Microsoft Corp.,513210,Washington,Information Technology Services,350953
+http://linkedin.com/company/morgan-stanley,1485785,Morgan Stanley,523940,New York,Financial Services,1485785
+http://linkedin.com/company/nike,775676,"NIKE, Inc.",316210,Oregon,Apparel Retail,775676
+http://linkedin.com/company/northrop-grumman-corporation,851738,Northrop Grumman Corp.,336414,Virginia,Aerospace and Defense,851738
+http://linkedin.com/company/nvidia,1223555,NVIDIA Corp.,334413,California,Electronics Manufacturing,1223555
+http://linkedin.com/company/oliver-wyman,700308,"Oliver Wyman, Inc.",541618,New York,Consulting and Advisory Services,700308
+http://linkedin.com/company/oracle,472640,Oracle Corp.,513210,Texas,Information Technology Services,472640
+http://linkedin.com/company/palantir-technologies,1010813,"Palantir Technologies, Inc.",513210,Florida,Information Technology Services,1010813
+http://linkedin.com/company/pepsico,1112079,"PepsiCo, Inc.",311919,New York,Food and Beverage,1112079
+http://linkedin.com/company/pnc-bank,22142569,"The PNC Financial Services Group, Inc.",522110,Pennsylvania,Financial Services,22142569
+http://linkedin.com/company/procter-and-gamble,513460,Procter & Gamble Co.,325611,Ohio,Wellness Products,513460
+http://linkedin.com/company/pwc,709929,PricewaterhouseCoopers LLP,541211,New York,Consulting and Advisory Services,709929
+http://linkedin.com/company/resmed,370332,"ResMed, Inc.",334510,California,Healthcare and Wellness Services,370332
+http://linkedin.com/company/revolut,233467,Revolut Ltd.,522320,England,Digital Commerce Services,233467
+http://linkedin.com/company/rivian,22237205,"Rivian Automotive, Inc.",336110,California,Automotive Services,22237205
+http://linkedin.com/company/royal-bank-of-canada,5959773,Royal Bank Of Canada,611692,Professional Development Services,,5959773
+http://linkedin.com/company/salesforce,115177,"Salesforce, Inc.",513210,California,Information Technology Services,115177
+http://linkedin.com/company/samsung-electronics,1032978,"Samsung Electronics Co., Ltd.",334220,Gyeonggi-do,Electronics Manufacturing,1032978
+http://linkedin.com/company/sanofi,462023,Sanofi,325412,Ile-de-France,Pharmaceuticals,462023
+http://linkedin.com/company/santander-bank-na,1502483,"Santander Bank, NA (Wilmington, Delaware)",522110,Delaware,Financial Services,1502483
+http://linkedin.com/company/shell,347298,Shell Plc,211120,England,Energy and Resources,347298
+http://linkedin.com/company/siemens,1314485,Siemens AG,333998,Bavaria,Energy and Resources,1314485
+http://linkedin.com/company/silver-lake,618378,Silver Lake Management Co. LLC,523910,California,Financial Services,618378
+http://linkedin.com/company/snap-inc-co,692801,"Snap, Inc.",513210,California,Digital Commerce Services,692801
+http://linkedin.com/company/sofi,21048180,"SoFi Technologies, Inc.",522291,California,Information Technology Services,21048180
+http://linkedin.com/company/spacex,1012186,Space Exploration Technologies Corp.,336414,California,Aerospace and Defense,1012186
+http://linkedin.com/company/spglobal,296301,"S&P Global, Inc.",518210,New York,Financial Services,296301
+http://linkedin.com/company/starbucks,1037635,Starbucks Corp.,722515,Washington,Hospitality and Tourism Management,1037635
+http://linkedin.com/company/stripe,906508,"Stripe, Inc.",513210,California,Information Technology Services,906508
+http://linkedin.com/company/target,739347,Target Corp.,455211,Minnesota,Retail and Consumer Goods,739347
+http://linkedin.com/company/temasek-holdings,480127,Temasek Holdings Pte Ltd.,523999,Financial Services,,480127
+http://linkedin.com/company/tesla-motors,803508,"Tesla, Inc.",336110,Texas,Energy and Resources,803508
+http://linkedin.com/company/the-trade-desk,832518,"The Trade Desk, Inc.",513210,California,Digital Commerce Services,832518
+http://linkedin.com/company/uber-com,500864,"Uber Technologies, Inc.",485310,California,Digital Commerce Services,500864
+http://linkedin.com/company/ubs,560872,UBS AG,523940,Zurich,Financial Services,560872
+http://linkedin.com/company/verizon,20921455,"Verizon Communications, Inc.",517112,New York,Telecommunications Services,20921455
+http://linkedin.com/company/visa,1058117,"Visa, Inc.",522320,California,Information Technology Services,1058117
+http://linkedin.com/company/wellsfargo,1191500,Wells Fargo & Co.,522110,California,Financial Services,1191500
+http://linkedin.com/company/akuna-capital,26990604,Akuna Securities LLC,,,,26990604
+http://linkedin.com/company/aqr-capital-management,857329,AQR Capital Management LLC,,,,857329
+http://linkedin.com/company/bridgewater-associates,211728,Bridgewater Associates LP,,,,211728
+http://linkedin.com/company/citadel-llc,1495198,Citadel Enterprise Americas LLC,,,,1495198
+http://linkedin.com/company/citadel-securities,98807897,Citadel Securities LLC,,,,98807897
+http://linkedin.com/company/drw,23458589,DRW Holdings LLC,,,,23458589
+http://linkedin.com/company/flow-traders,356719,Flow Traders BV,,,,356719
+http://linkedin.com/company/hudson-river-trading,1406919,Hudson River Trading LLC,,,,1406919
+http://linkedin.com/company/imc-trading,915003,IMC Trading BV,,,,915003
+http://linkedin.com/company/jane-street-global,22150778,Jane Street Group LLC,,,,22150778
+http://linkedin.com/company/jump-trading,77744,Jump Trading LLC,,,,77744
+http://linkedin.com/company/millennium-partners,818770,Millennium Management LLC,,,,818770
+http://linkedin.com/company/optiver,946155,Optiver Holding BV,,,,946155
+http://linkedin.com/company/point72-asset-management-l-p-,8062190,Point72 LP,,,,8062190
+http://linkedin.com/company/two-sigma-investments,1245348,Two Sigma Investments LP,,,,1245348
