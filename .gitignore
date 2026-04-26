@@ -1,5 +1,10 @@
-.DS_Store
-**/.DS_Store
+# Data files: do not commit raw/processed CSVs to the repo.
+# Place your CSV files in data/raw/ or data/processed/ locally.
+data/raw/*.csv
+data/processed/*.csv
+
+# General CSV exclusion (covers any other location)
+*.csv
 
 # Raw data files too large for normal GitHub pushes.
 data/Revelio Companies_ALL.csv
@@ -23,7 +28,29 @@ outputs/*.parquet
 outputs/models/
 outputs/tables/features_*_sample.csv
 
-# Local Python/cache noise.
-__pycache__/
-*.pyc
+# Jupyter notebook checkpoints
 .ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# OS artifacts
+.DS_Store
+**/.DS_Store
+Thumbs.db
