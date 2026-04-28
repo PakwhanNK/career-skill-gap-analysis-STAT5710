@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="402" viewBox="0 0 1080 402">
+<rect width="1080" height="402" fill="#faf7f2"/>
+<text x="540.0" y="38" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">Top Signed Coefficients</text>
+<text x="308" y="110" text-anchor="end" font-size="13" fill="#1f2937">seniority_num</text>
+<rect x="320" y="96" width="680.0" height="20" rx="5" fill="#0f766e"/>
+<text x="1008.0" y="111" font-size="13" fill="#1f2937">0.904</text>
+<text x="308" y="144" text-anchor="end" font-size="13" fill="#1f2937">major_te</text>
+<rect x="320" y="130" width="503.0" height="20" rx="5" fill="#0f766e"/>
+<text x="831.0" y="145" font-size="13" fill="#1f2937">0.669</text>
+<text x="308" y="178" text-anchor="end" font-size="13" fill="#1f2937">numconnections</text>
+<rect x="320" y="164" width="213.3" height="20" rx="5" fill="#0f766e"/>
+<text x="541.3" y="179" font-size="13" fill="#1f2937">0.283</text>
+<text x="308" y="212" text-anchor="end" font-size="13" fill="#1f2937">school_te</text>
+<rect x="320" y="198" width="139.0" height="20" rx="5" fill="#0f766e"/>
+<text x="467.0" y="213" font-size="13" fill="#1f2937">0.185</text>
+<text x="308" y="246" text-anchor="end" font-size="13" fill="#1f2937">user_country_te</text>
+<rect x="320" y="232" width="79.4" height="20" rx="5" fill="#0f766e"/>
+<text x="407.4" y="247" font-size="13" fill="#1f2937">0.106</text>
+<text x="308" y="280" text-anchor="end" font-size="13" fill="#1f2937">entry_job_year</text>
+<rect x="320" y="266" width="45.8" height="20" rx="5" fill="#c05621"/>
+<text x="373.8" y="281" font-size="13" fill="#1f2937">0.061</text>
+<text x="308" y="314" text-anchor="end" font-size="13" fill="#1f2937">prestige</text>
+<rect x="320" y="300" width="19.3" height="20" rx="5" fill="#c05621"/>
+<text x="347.3" y="315" font-size="13" fill="#1f2937">0.026</text>
+<text x="308" y="348" text-anchor="end" font-size="13" fill="#1f2937">university_country_te</text>
+<rect x="320" y="334" width="0.0" height="20" rx="5" fill="#c05621"/>
+<text x="328.0" y="349" font-size="13" fill="#1f2937">0.000</text>
+</svg>

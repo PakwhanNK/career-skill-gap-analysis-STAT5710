@@ -18,6 +18,8 @@ data3.csv
 data/filtered_grouped_positions.csv
 data/user_ids.txt
 data/user_profiles.csv
+notebooks/user_ids.txt
+data/processed/ready_analysis/core_user_ids.txt
 
 # Older exploratory runs; final deliverables are in outputs/.
 supply_side_outputs/
@@ -31,6 +33,8 @@ outputs/tables/features_*_sample.csv
 # Jupyter notebook checkpoints
 .ipynb_checkpoints/
 **/.ipynb_checkpoints/
+.idea/
+**/.idea/
 
 # Python
 __pycache__/

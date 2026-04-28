@@ -1,2 +1,0 @@
-model,test_auc,test_accuracy,precision,recall,n_train,n_test
-skill_only_logistic_regression,0.7569550553060788,0.5868560105680317,0.2314410480349345,0.9512820512820512,12112,3028

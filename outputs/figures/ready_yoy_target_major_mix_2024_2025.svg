@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1150" height="620" viewBox="0 0 1150 620">
+<rect width="1150" height="620" fill="#faf7f2"/>
+<text x="575.0" y="38" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">Target Major Mix: 2024 vs 2025</text>
+<rect x="900" y="58" width="16" height="16" fill="#2b6cb0"/><text x="924" y="71" font-size="14" fill="#1f2937">2024</text>
+<rect x="1010" y="58" width="16" height="16" fill="#d69e2e"/><text x="1034" y="71" font-size="14" fill="#1f2937">2025</text>
+<line x1="85" y1="490" x2="1100" y2="490" stroke="#e5ded2" stroke-width="2"/>
+<rect x="104.5" y="90.0" width="28.4" height="400.0" rx="5" fill="#2b6cb0"/>
+<text x="118.7" y="85.0" text-anchor="middle" font-size="11" fill="#1f2937">55.0%</text>
+<rect x="138.6" y="180.7" width="28.4" height="309.3" rx="5" fill="#d69e2e"/>
+<text x="152.8" y="175.7" text-anchor="middle" font-size="11" fill="#1f2937">42.5%</text>
+<text x="135.75" y="518" text-anchor="middle" font-size="12" fill="#1f2937" transform="rotate(-28 135.75 518)">Engineering</text>
+<rect x="206.0" y="357.5" width="28.4" height="132.5" rx="5" fill="#2b6cb0"/>
+<text x="220.2" y="352.5" text-anchor="middle" font-size="11" fill="#1f2937">18.2%</text>
+<rect x="240.1" y="302.5" width="28.4" height="187.5" rx="5" fill="#d69e2e"/>
+<text x="254.3" y="297.5" text-anchor="middle" font-size="11" fill="#1f2937">25.8%</text>
+<text x="237.25" y="518" text-anchor="middle" font-size="12" fill="#1f2937" transform="rotate(-28 237.25 518)">Missing</text>
+<rect x="307.5" y="392.3" width="28.4" height="97.7" rx="5" fill="#2b6cb0"/>
+<text x="321.7" y="387.3" text-anchor="middle" font-size="11" fill="#1f2937">13.4%</text>
+<rect x="341.6" y="371.9" width="28.4" height="118.1" rx="5" fill="#d69e2e"/>
+<text x="355.8" y="366.9" text-anchor="middle" font-size="11" fill="#1f2937">16.2%</text>
+<text x="338.75" y="518" text-anchor="middle" font-size="12" fill="#1f2937" transform="rotate(-28 338.75 518)">Economics</text>
+<rect x="409.0" y="442.2" width="28.4" height="47.8" rx="5" fill="#2b6cb0"/>
+<text x="423.2" y="437.2" text-anchor="middle" font-size="11" fill="#1f2937">6.6%</text>
+<rect x="443.1" y="434.0" width="28.4" height="56.0" rx="5" fill="#d69e2e"/>
+<text x="457.3" y="429.0" text-anchor="middle" font-size="11" fill="#1f2937">7.7%</text>
+<text x="440.25" y="518" text-anchor="middle" font-size="12" fill="#1f2937" transform="rotate(-28 440.25 518)">Business</text>
+<rect x="510.5" y="474.5" width="28.4" height="15.5" rx="5" fill="#2b6cb0"/>
+<text x="524.7" y="469.5" text-anchor="middle" font-size="11" fill="#1f2937">2.1%</text>
+<rect x="544.6" y="471.7" width="28.4" height="18.3" rx="5" fill="#d69e2e"/>
+<text x="558.8" y="466.7" text-anchor="middle" font-size="11" fill="#1f2937">2.5%</text>
+<text x="541.75" y="518" text-anchor="middle" font-size="12" fill="#1f2937" transform="rotate(-28 541.75 518)">Mathematics</text>
+<rect x="612.0" y="478.6" width="28.4" height="11.4" rx="5" fill="#2b6cb0"/>
+<text x="626.2" y="473.6" text-anchor="middle" font-size="11" fill="#1f2937">1.6%</text>
+<rect x="646.1" y="485.1" width="28.4" height="4.9" rx="5" fill="#d69e2e"/>
+<text x="660.3" y="480.1" text-anchor="middle" font-size="11" fill="#1f2937">0.7%</text>
+<text x="643.25" y="518" text-anchor="middle" font-size="12" fill="#1f2937" transform="rotate(-28 643.25 518)">Finance</text>
+<rect x="713.5" y="481.2" width="28.4" height="8.8" rx="5" fill="#2b6cb0"/>
+<text x="727.7" y="476.2" text-anchor="middle" font-size="11" fill="#1f2937">1.2%</text>
+<rect x="747.6" y="476.6" width="28.4" height="13.4" rx="5" fill="#d69e2e"/>
+<text x="761.8" y="471.6" text-anchor="middle" font-size="11" fill="#1f2937">1.8%</text>
+<text x="744.75" y="518" text-anchor="middle" font-size="12" fill="#1f2937" transform="rotate(-28 744.75 518)">Statistics</text>
+<rect x="815.0" y="487.4" width="28.4" height="2.6" rx="5" fill="#2b6cb0"/>
+<text x="829.2" y="482.4" text-anchor="middle" font-size="11" fill="#1f2937">0.4%</text>
+<rect x="849.1" y="483.9" width="28.4" height="6.1" rx="5" fill="#d69e2e"/>
+<text x="863.3" y="478.9" text-anchor="middle" font-size="11" fill="#1f2937">0.8%</text>
+<text x="846.25" y="518" text-anchor="middle" font-size="12" fill="#1f2937" transform="rotate(-28 846.25 518)">Biology</text>
+<rect x="916.5" y="488.2" width="28.4" height="1.8" rx="5" fill="#2b6cb0"/>
+<text x="930.7" y="483.2" text-anchor="middle" font-size="11" fill="#1f2937">0.2%</text>
+<rect x="950.6" y="486.3" width="28.4" height="3.7" rx="5" fill="#d69e2e"/>
+<text x="964.8" y="481.3" text-anchor="middle" font-size="11" fill="#1f2937">0.5%</text>
+<text x="947.75" y="518" text-anchor="middle" font-size="12" fill="#1f2937" transform="rotate(-28 947.75 518)">Marketing</text>
+<rect x="1018.0" y="488.0" width="28.4" height="2.0" rx="5" fill="#2b6cb0"/>
+<text x="1032.2" y="483.0" text-anchor="middle" font-size="11" fill="#1f2937">0.3%</text>
+<rect x="1052.1" y="487.6" width="28.4" height="2.4" rx="5" fill="#d69e2e"/>
+<text x="1066.3" y="482.6" text-anchor="middle" font-size="11" fill="#1f2937">0.3%</text>
+<text x="1049.25" y="518" text-anchor="middle" font-size="12" fill="#1f2937" transform="rotate(-28 1049.25 518)">Physics</text>
+</svg>

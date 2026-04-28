@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1250" height="370" viewBox="0 0 1250 370">
+<rect width="1250" height="370" fill="#faf7f2"/>
+<text x="625.0" y="38" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">Non-Skill Logistic Coefficients</text>
+<text x="418" y="109" text-anchor="end" font-size="13" fill="#1f2937">major_te</text>
+<rect x="430" y="95" width="730.0" height="18" rx="5" fill="#2b6cb0"/>
+<text x="1168.0" y="109" font-size="13" fill="#1f2937">0.682</text>
+<text x="418" y="139" text-anchor="end" font-size="13" fill="#1f2937">numconnections</text>
+<rect x="430" y="125" width="323.9" height="18" rx="5" fill="#2b6cb0"/>
+<text x="761.9" y="139" font-size="13" fill="#1f2937">0.302</text>
+<text x="418" y="169" text-anchor="end" font-size="13" fill="#1f2937">school_te</text>
+<rect x="430" y="155" width="263.4" height="18" rx="5" fill="#2b6cb0"/>
+<text x="701.4" y="169" font-size="13" fill="#1f2937">0.246</text>
+<text x="418" y="199" text-anchor="end" font-size="13" fill="#1f2937">user_country_te</text>
+<rect x="430" y="185" width="118.7" height="18" rx="5" fill="#2b6cb0"/>
+<text x="556.7" y="199" font-size="13" fill="#1f2937">0.111</text>
+<text x="418" y="229" text-anchor="end" font-size="13" fill="#1f2937">entry_job_year</text>
+<rect x="430" y="215" width="103.7" height="18" rx="5" fill="#2b6cb0"/>
+<text x="541.7" y="229" font-size="13" fill="#1f2937">0.097</text>
+<text x="418" y="259" text-anchor="end" font-size="13" fill="#1f2937">prestige</text>
+<rect x="430" y="245" width="14.8" height="18" rx="5" fill="#2b6cb0"/>
+<text x="452.8" y="259" font-size="13" fill="#1f2937">0.014</text>
+<text x="418" y="289" text-anchor="end" font-size="13" fill="#1f2937">university_country_te</text>
+<rect x="430" y="275" width="0.0" height="18" rx="5" fill="#2b6cb0"/>
+<text x="438.0" y="289" font-size="13" fill="#1f2937">0.000</text>
+<text x="418" y="319" text-anchor="end" font-size="13" fill="#1f2937">degree_te</text>
+<rect x="430" y="305" width="0.0" height="18" rx="5" fill="#2b6cb0"/>
+<text x="438.0" y="319" font-size="13" fill="#1f2937">0.000</text>
+</svg>

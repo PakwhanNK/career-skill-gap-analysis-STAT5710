@@ -1,0 +1,19 @@
+{
+  "core_overlap_users": 188872,
+  "input_user_sets": {
+    "user_ids": 235786,
+    "edu18_22": 6812446,
+    "user_skills": 231680,
+    "positions": 189839,
+    "profiles": 235786
+  },
+  "output_counts": {
+    "ready_revelio_edu_18_22_rows": 202374,
+    "ready_user_skills_rows": 6074226,
+    "ready_user_positions_grouped_rows": 188872,
+    "ready_user_profiles_rows": 188872,
+    "ready_user_skill_agg_users": 188872,
+    "ready_first_job_users": 57323
+  },
+  "output_dir": "C:\\Users\\knich\\Projects\\career-skill-gap-analysis-STAT5710\\data\\processed\\ready_analysis"
+}

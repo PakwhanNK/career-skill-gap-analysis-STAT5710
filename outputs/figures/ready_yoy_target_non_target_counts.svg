@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1150" height="620" viewBox="0 0 1150 620">
+<rect width="1150" height="620" fill="#faf7f2"/>
+<text x="575.0" y="38" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">Target vs Non-Target Counts by Year</text>
+<rect x="900" y="58" width="16" height="16" fill="#2b6cb0"/><text x="924" y="71" font-size="14" fill="#1f2937">Target</text>
+<rect x="1010" y="58" width="16" height="16" fill="#d69e2e"/><text x="1034" y="71" font-size="14" fill="#1f2937">Non-target</text>
+<line x1="85" y1="490" x2="1100" y2="490" stroke="#e5ded2" stroke-width="2"/>
+<rect x="182.4" y="90.0" width="142.1" height="400.0" rx="5" fill="#2b6cb0"/>
+<text x="253.5" y="85.0" text-anchor="middle" font-size="11" fill="#1f2937">2,492</text>
+<rect x="353.0" y="237.7" width="142.1" height="252.3" rx="5" fill="#d69e2e"/>
+<text x="424.0" y="232.7" text-anchor="middle" font-size="11" fill="#1f2937">1,572</text>
+<text x="338.75" y="518" text-anchor="middle" font-size="12" fill="#1f2937" transform="rotate(-28 338.75 518)">2024</text>
+<rect x="689.9" y="394.2" width="142.1" height="95.8" rx="5" fill="#2b6cb0"/>
+<text x="761.0" y="389.2" text-anchor="middle" font-size="11" fill="#1f2937">597</text>
+<rect x="860.5" y="423.2" width="142.1" height="66.8" rx="5" fill="#d69e2e"/>
+<text x="931.5" y="418.2" text-anchor="middle" font-size="11" fill="#1f2937">416</text>
+<text x="846.25" y="518" text-anchor="middle" font-size="12" fill="#1f2937" transform="rotate(-28 846.25 518)">2025</text>
+</svg>

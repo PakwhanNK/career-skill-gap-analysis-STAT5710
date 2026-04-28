@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="490" viewBox="0 0 1200 490">
+<rect width="1200" height="490" fill="#faf7f2"/>
+<text x="600.0" y="38" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">Target Rate by Major (Reviewed Cohort)</text>
+<text x="408" y="109" text-anchor="end" font-size="13" fill="#1f2937">Engineering</text>
+<rect x="420" y="95" width="550.5" height="18" rx="5" fill="#d69e2e"/>
+<text x="978.5" y="109" font-size="13" fill="#1f2937">58.2%</text>
+<text x="408" y="139" text-anchor="end" font-size="13" fill="#1f2937">Missing</text>
+<rect x="420" y="125" width="245.6" height="18" rx="5" fill="#d69e2e"/>
+<text x="673.6" y="139" font-size="13" fill="#1f2937">26.0%</text>
+<text x="408" y="169" text-anchor="end" font-size="13" fill="#1f2937">Economics</text>
+<rect x="420" y="155" width="574.5" height="18" rx="5" fill="#d69e2e"/>
+<text x="1002.5" y="169" font-size="13" fill="#1f2937">60.8%</text>
+<text x="408" y="199" text-anchor="end" font-size="13" fill="#1f2937">Business</text>
+<rect x="420" y="185" width="598.6" height="18" rx="5" fill="#d69e2e"/>
+<text x="1026.6" y="199" font-size="13" fill="#1f2937">63.3%</text>
+<text x="408" y="229" text-anchor="end" font-size="13" fill="#1f2937">Biology</text>
+<rect x="420" y="215" width="56.1" height="18" rx="5" fill="#d69e2e"/>
+<text x="484.1" y="229" font-size="13" fill="#1f2937">5.9%</text>
+<text x="408" y="259" text-anchor="end" font-size="13" fill="#1f2937">Mathematics</text>
+<rect x="420" y="245" width="378.7" height="18" rx="5" fill="#d69e2e"/>
+<text x="806.7" y="259" font-size="13" fill="#1f2937">40.1%</text>
+<text x="408" y="289" text-anchor="end" font-size="13" fill="#1f2937">Statistics</text>
+<rect x="420" y="275" width="407.0" height="18" rx="5" fill="#d69e2e"/>
+<text x="835.0" y="289" font-size="13" fill="#1f2937">43.1%</text>
+<text x="408" y="319" text-anchor="end" font-size="13" fill="#1f2937">Chemistry</text>
+<rect x="420" y="305" width="83.0" height="18" rx="5" fill="#d69e2e"/>
+<text x="511.0" y="319" font-size="13" fill="#1f2937">8.8%</text>
+<text x="408" y="349" text-anchor="end" font-size="13" fill="#1f2937">Physics</text>
+<rect x="420" y="335" width="144.0" height="18" rx="5" fill="#d69e2e"/>
+<text x="572.0" y="349" font-size="13" fill="#1f2937">15.2%</text>
+<text x="408" y="379" text-anchor="end" font-size="13" fill="#1f2937">Nursing</text>
+<rect x="420" y="365" width="11.6" height="18" rx="5" fill="#d69e2e"/>
+<text x="439.6" y="379" font-size="13" fill="#1f2937">1.2%</text>
+<text x="408" y="409" text-anchor="end" font-size="13" fill="#1f2937">Finance</text>
+<rect x="420" y="395" width="700.0" height="18" rx="5" fill="#d69e2e"/>
+<text x="1128.0" y="409" font-size="13" fill="#1f2937">74.1%</text>
+<text x="408" y="439" text-anchor="end" font-size="13" fill="#1f2937">Architecture</text>
+<rect x="420" y="425" width="135.0" height="18" rx="5" fill="#d69e2e"/>
+<text x="563.0" y="439" font-size="13" fill="#1f2937">14.3%</text>
+</svg>

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1150" height="620" viewBox="0 0 1150 620">
+<rect width="1150" height="620" fill="#faf7f2"/>
+<text x="575.0" y="38" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">Top Employers: 2024 vs 2025</text>
+<rect x="900" y="58" width="16" height="16" fill="#2b6cb0"/><text x="924" y="71" font-size="14" fill="#1f2937">2024</text>
+<rect x="1010" y="58" width="16" height="16" fill="#d69e2e"/><text x="1034" y="71" font-size="14" fill="#1f2937">2025</text>
+<line x1="85" y1="490" x2="1100" y2="490" stroke="#e5ded2" stroke-width="2"/>
+<rect x="98.0" y="90.0" width="18.9" height="400.0" rx="5" fill="#2b6cb0"/>
+<text x="107.5" y="85.0" text-anchor="middle" font-size="11" fill="#1f2937">265</text>
+<rect x="120.7" y="407.0" width="18.9" height="83.0" rx="5" fill="#d69e2e"/>
+<text x="130.2" y="402.0" text-anchor="middle" font-size="11" fill="#1f2937">55</text>
+<text x="118.83333333333334" y="518" text-anchor="middle" font-size="12" fill="#1f2937" transform="rotate(-28 118.83333333333334 518)">Amazon.com, Inc.</text>
+<rect x="165.7" y="302.8" width="18.9" height="187.2" rx="5" fill="#2b6cb0"/>
+<text x="175.1" y="297.8" text-anchor="middle" font-size="11" fill="#1f2937">124</text>
+<rect x="188.4" y="446.2" width="18.9" height="43.8" rx="5" fill="#d69e2e"/>
+<text x="197.9" y="441.2" text-anchor="middle" font-size="11" fill="#1f2937">29</text>
+<text x="186.5" y="518" text-anchor="middle" font-size="12" fill="#1f2937" transform="rotate(-28 186.5 518)">The Boston Consulting Gr</text>
+<rect x="233.3" y="324.0" width="18.9" height="166.0" rx="5" fill="#2b6cb0"/>
+<text x="242.8" y="319.0" text-anchor="middle" font-size="11" fill="#1f2937">110</text>
+<rect x="256.1" y="431.1" width="18.9" height="58.9" rx="5" fill="#d69e2e"/>
+<text x="265.5" y="426.1" text-anchor="middle" font-size="11" fill="#1f2937">39</text>
+<text x="254.16666666666669" y="518" text-anchor="middle" font-size="12" fill="#1f2937" transform="rotate(-28 254.16666666666669 518)">Government of the United</text>
+<rect x="301.0" y="310.4" width="18.9" height="179.6" rx="5" fill="#2b6cb0"/>
+<text x="310.5" y="305.4" text-anchor="middle" font-size="11" fill="#1f2937">119</text>
+<rect x="323.7" y="452.3" width="18.9" height="37.7" rx="5" fill="#d69e2e"/>
+<text x="333.2" y="447.3" text-anchor="middle" font-size="11" fill="#1f2937">25</text>
+<text x="321.83333333333337" y="518" text-anchor="middle" font-size="12" fill="#1f2937" transform="rotate(-28 321.83333333333337 518)">The Goldman Sachs Group,</text>
+<rect x="368.7" y="343.6" width="18.9" height="146.4" rx="5" fill="#2b6cb0"/>
+<text x="378.1" y="338.6" text-anchor="middle" font-size="11" fill="#1f2937">97</text>
+<rect x="391.4" y="444.7" width="18.9" height="45.3" rx="5" fill="#d69e2e"/>
+<text x="400.9" y="439.7" text-anchor="middle" font-size="11" fill="#1f2937">30</text>
+<text x="389.5" y="518" text-anchor="middle" font-size="12" fill="#1f2937" transform="rotate(-28 389.5 518)">Alphabet, Inc.</text>
+<rect x="436.3" y="358.7" width="18.9" height="131.3" rx="5" fill="#2b6cb0"/>
+<text x="445.8" y="353.7" text-anchor="middle" font-size="11" fill="#1f2937">87</text>
+<rect x="459.1" y="455.3" width="18.9" height="34.7" rx="5" fill="#d69e2e"/>
+<text x="468.5" y="450.3" text-anchor="middle" font-size="11" fill="#1f2937">23</text>
+<text x="457.1666666666667" y="518" text-anchor="middle" font-size="12" fill="#1f2937" transform="rotate(-28 457.1666666666667 518)">University of California</text>
+<rect x="504.0" y="354.2" width="18.9" height="135.8" rx="5" fill="#2b6cb0"/>
+<text x="513.5" y="349.2" text-anchor="middle" font-size="11" fill="#1f2937">90</text>
+<rect x="526.7" y="461.3" width="18.9" height="28.7" rx="5" fill="#d69e2e"/>
+<text x="536.2" y="456.3" text-anchor="middle" font-size="11" fill="#1f2937">19</text>
+<text x="524.8333333333334" y="518" text-anchor="middle" font-size="12" fill="#1f2937" transform="rotate(-28 524.8333333333334 518)">JPMorgan Chase &amp; Co.</text>
+<rect x="571.7" y="361.7" width="18.9" height="128.3" rx="5" fill="#2b6cb0"/>
+<text x="581.1" y="356.7" text-anchor="middle" font-size="11" fill="#1f2937">85</text>
+<rect x="594.4" y="465.8" width="18.9" height="24.2" rx="5" fill="#d69e2e"/>
+<text x="603.9" y="460.8" text-anchor="middle" font-size="11" fill="#1f2937">16</text>
+<text x="592.5" y="518" text-anchor="middle" font-size="12" fill="#1f2937" transform="rotate(-28 592.5 518)">Meta Platforms, Inc.</text>
+<rect x="639.3" y="364.7" width="18.9" height="125.3" rx="5" fill="#2b6cb0"/>
+<text x="648.8" y="359.7" text-anchor="middle" font-size="11" fill="#1f2937">83</text>
+<rect x="662.1" y="468.9" width="18.9" height="21.1" rx="5" fill="#d69e2e"/>
+<text x="671.5" y="463.9" text-anchor="middle" font-size="11" fill="#1f2937">14</text>
+<text x="660.1666666666667" y="518" text-anchor="middle" font-size="12" fill="#1f2937" transform="rotate(-28 660.1666666666667 518)">Microsoft Corp.</text>
+<rect x="707.0" y="405.5" width="18.9" height="84.5" rx="5" fill="#2b6cb0"/>
+<text x="716.5" y="400.5" text-anchor="middle" font-size="11" fill="#1f2937">56</text>
+<rect x="729.7" y="461.3" width="18.9" height="28.7" rx="5" fill="#d69e2e"/>
+<text x="739.2" y="456.3" text-anchor="middle" font-size="11" fill="#1f2937">19</text>
+<text x="727.8333333333334" y="518" text-anchor="middle" font-size="12" fill="#1f2937" transform="rotate(-28 727.8333333333334 518)">PricewaterhouseCoopers I</text>
+<rect x="774.7" y="400.9" width="18.9" height="89.1" rx="5" fill="#2b6cb0"/>
+<text x="784.1" y="395.9" text-anchor="middle" font-size="11" fill="#1f2937">59</text>
+<rect x="797.4" y="468.9" width="18.9" height="21.1" rx="5" fill="#d69e2e"/>
+<text x="806.9" y="463.9" text-anchor="middle" font-size="11" fill="#1f2937">14</text>
+<text x="795.5" y="518" text-anchor="middle" font-size="12" fill="#1f2937" transform="rotate(-28 795.5 518)">Capital One Financial Co</text>
+<rect x="842.3" y="410.0" width="18.9" height="80.0" rx="5" fill="#2b6cb0"/>
+<text x="851.8" y="405.0" text-anchor="middle" font-size="11" fill="#1f2937">53</text>
+<rect x="865.1" y="479.4" width="18.9" height="10.6" rx="5" fill="#d69e2e"/>
+<text x="874.5" y="474.4" text-anchor="middle" font-size="11" fill="#1f2937">7</text>
+<text x="863.1666666666667" y="518" text-anchor="middle" font-size="12" fill="#1f2937" transform="rotate(-28 863.1666666666667 518)">University of Michigan</text>
+<rect x="910.0" y="414.5" width="18.9" height="75.5" rx="5" fill="#2b6cb0"/>
+<text x="919.5" y="409.5" text-anchor="middle" font-size="11" fill="#1f2937">50</text>
+<rect x="932.7" y="477.9" width="18.9" height="12.1" rx="5" fill="#d69e2e"/>
+<text x="942.2" y="472.9" text-anchor="middle" font-size="11" fill="#1f2937">8</text>
+<text x="930.8333333333334" y="518" text-anchor="middle" font-size="12" fill="#1f2937" transform="rotate(-28 930.8333333333334 518)">Deloitte LLP (New York)</text>
+<rect x="977.7" y="414.5" width="18.9" height="75.5" rx="5" fill="#2b6cb0"/>
+<text x="987.1" y="409.5" text-anchor="middle" font-size="11" fill="#1f2937">50</text>
+<rect x="1000.4" y="482.5" width="18.9" height="7.5" rx="5" fill="#d69e2e"/>
+<text x="1009.9" y="477.5" text-anchor="middle" font-size="11" fill="#1f2937">5</text>
+<text x="998.5000000000001" y="518" text-anchor="middle" font-size="12" fill="#1f2937" transform="rotate(-28 998.5000000000001 518)">Apple, Inc.</text>
+<rect x="1045.3" y="435.7" width="18.9" height="54.3" rx="5" fill="#2b6cb0"/>
+<text x="1054.8" y="430.7" text-anchor="middle" font-size="11" fill="#1f2937">36</text>
+<rect x="1068.1" y="462.8" width="18.9" height="27.2" rx="5" fill="#d69e2e"/>
+<text x="1077.5" y="457.8" text-anchor="middle" font-size="11" fill="#1f2937">18</text>
+<text x="1066.1666666666667" y="518" text-anchor="middle" font-size="12" fill="#1f2937" transform="rotate(-28 1066.1666666666667 518)">Ernst &amp; Young Global Ltd</text>
+</svg>

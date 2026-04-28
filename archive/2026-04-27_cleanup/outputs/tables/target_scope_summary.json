@@ -1,0 +1,12 @@
+{
+  "available_user_level_rows": 9412,
+  "available_user_level_cols": 13,
+  "user_level_rows_with_positions": 1999,
+  "user_level_cols_with_positions": 15,
+  "review_employers_total": 124,
+  "review_target_employers": 91,
+  "review_non_target_employers": 33,
+  "top_first_job_rows_visible_in_review_slice": 3234,
+  "top_first_job_target_rows_visible_in_review_slice": 940,
+  "top_first_job_non_target_rows_visible_in_review_slice": 2294
+}

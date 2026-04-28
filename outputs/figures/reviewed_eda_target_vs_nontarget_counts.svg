@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+<rect width="900" height="560" fill="#faf7f2"/>
+<text x="450.0" y="38" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">Reviewed Cohort: Target vs Non-Target</text>
+<line x1="80" y1="80.0" x2="860" y2="80.0" stroke="#e5ded2" stroke-width="1"/>
+<text x="70" y="84.0" text-anchor="end" font-size="12" fill="#1f2937">14,167</text>
+<line x1="80" y1="158.0" x2="860" y2="158.0" stroke="#e5ded2" stroke-width="1"/>
+<text x="70" y="162.0" text-anchor="end" font-size="12" fill="#1f2937">11,334</text>
+<line x1="80" y1="236.0" x2="860" y2="236.0" stroke="#e5ded2" stroke-width="1"/>
+<text x="70" y="240.0" text-anchor="end" font-size="12" fill="#1f2937">8,500</text>
+<line x1="80" y1="314.0" x2="860" y2="314.0" stroke="#e5ded2" stroke-width="1"/>
+<text x="70" y="318.0" text-anchor="end" font-size="12" fill="#1f2937">5,667</text>
+<line x1="80" y1="392.0" x2="860" y2="392.0" stroke="#e5ded2" stroke-width="1"/>
+<text x="70" y="396.0" text-anchor="end" font-size="12" fill="#1f2937">2,833</text>
+<line x1="80" y1="470.0" x2="860" y2="470.0" stroke="#e5ded2" stroke-width="1"/>
+<text x="70" y="474.0" text-anchor="end" font-size="12" fill="#1f2937">0</text>
+<rect x="167.8" y="166.6" width="214.5" height="303.4" rx="6" fill="#0f766e"/>
+<text x="275.0" y="158.6" text-anchor="middle" font-size="14" fill="#1f2937">11,021</text>
+<text x="275.0" y="520" text-anchor="middle" font-size="14" fill="#1f2937">Target</text>
+<rect x="557.8" y="80.0" width="214.5" height="390.0" rx="6" fill="#c05621"/>
+<text x="665.0" y="72.0" text-anchor="middle" font-size="14" fill="#1f2937">14,167</text>
+<text x="665.0" y="520" text-anchor="middle" font-size="14" fill="#1f2937">Non-target</text>
+</svg>

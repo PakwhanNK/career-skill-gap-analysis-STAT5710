@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="620" viewBox="0 0 1050 620">
+<rect width="1050" height="620" fill="#faf7f2"/>
+<text x="525.0" y="38" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">Major Mix Among Target Entrants</text>
+<path d="M 280 330 L 259.82 508.87 A 180 180 0 1 0 280.00 150.00 Z" fill="#0f766e" stroke="#faf7f2" stroke-width="2"/>
+<text x="402.2" y="336.9" text-anchor="middle" font-size="13" fill="white">51.8%</text>
+<rect x="560" y="108" width="18" height="18" rx="3" fill="#0f766e"/>
+<text x="588" y="122" font-size="14" fill="#1f2937">Engineering (5,213)</text>
+<path d="M 280 330 L 103.68 366.21 A 180 180 0 0 0 259.82 508.87 Z" fill="#2b6cb0" stroke="#faf7f2" stroke-width="2"/>
+<text x="197.4" y="420.4" text-anchor="middle" font-size="13" fill="white">20.0%</text>
+<rect x="560" y="144" width="18" height="18" rx="3" fill="#2b6cb0"/>
+<text x="588" y="158" font-size="14" fill="#1f2937">Missing (2,012)</text>
+<path d="M 280 330 L 143.57 212.58 A 180 180 0 0 0 103.68 366.21 Z" fill="#d69e2e" stroke="#faf7f2" stroke-width="2"/>
+<text x="161.5" y="299.2" text-anchor="middle" font-size="13" fill="white">14.5%</text>
+<rect x="560" y="180" width="18" height="18" rx="3" fill="#d69e2e"/>
+<text x="588" y="194" font-size="14" fill="#1f2937">Economics (1,463)</text>
+<path d="M 280 330 L 207.21 165.38 A 180 180 0 0 0 143.57 212.58 Z" fill="#6b46c1" stroke="#faf7f2" stroke-width="2"/>
+<text x="207.1" y="231.7" text-anchor="middle" font-size="13" fill="white">7.1%</text>
+<rect x="560" y="216" width="18" height="18" rx="3" fill="#6b46c1"/>
+<text x="588" y="230" font-size="14" fill="#1f2937">Business (711)</text>
+<path d="M 280 330 L 228.38 157.56 A 180 180 0 0 0 207.21 165.38 Z" fill="#be185d" stroke="#faf7f2" stroke-width="2"/>
+<rect x="560" y="252" width="18" height="18" rx="3" fill="#be185d"/>
+<text x="588" y="266" font-size="14" fill="#1f2937">Mathematics (201)</text>
+<path d="M 280 330 L 242.74 153.90 A 180 180 0 0 0 228.38 157.56 Z" fill="#2f855a" stroke="#faf7f2" stroke-width="2"/>
+<rect x="560" y="288" width="18" height="18" rx="3" fill="#2f855a"/>
+<text x="588" y="302" font-size="14" fill="#1f2937">Statistics (132)</text>
+<path d="M 280 330 L 256.92 151.49 A 180 180 0 0 0 242.74 153.90 Z" fill="#b45309" stroke="#faf7f2" stroke-width="2"/>
+<rect x="560" y="324" width="18" height="18" rx="3" fill="#b45309"/>
+<text x="588" y="338" font-size="14" fill="#1f2937">Finance (128)</text>
+<path d="M 280 330 L 261.94 150.91 A 180 180 0 0 0 256.92 151.49 Z" fill="#475569" stroke="#faf7f2" stroke-width="2"/>
+<rect x="560" y="360" width="18" height="18" rx="3" fill="#475569"/>
+<text x="588" y="374" font-size="14" fill="#1f2937">Biology (45)</text>
+<path d="M 280 330 L 280.00 150.00 A 180 180 0 0 0 261.94 150.91 Z" fill="#94a3b8" stroke="#faf7f2" stroke-width="2"/>
+<rect x="560" y="396" width="18" height="18" rx="3" fill="#94a3b8"/>
+<text x="588" y="410" font-size="14" fill="#1f2937">Other (161)</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+<rect width="900" height="560" fill="#faf7f2"/>
+<text x="450.0" y="38" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">Seniority 2 Model Comparison: AUC</text>
+<line x1="80" y1="80.0" x2="860" y2="80.0" stroke="#e5ded2" stroke-width="1"/>
+<text x="70" y="84.0" text-anchor="end" font-size="12" fill="#1f2937">1.0</text>
+<line x1="80" y1="158.0" x2="860" y2="158.0" stroke="#e5ded2" stroke-width="1"/>
+<text x="70" y="162.0" text-anchor="end" font-size="12" fill="#1f2937">0.8</text>
+<line x1="80" y1="236.0" x2="860" y2="236.0" stroke="#e5ded2" stroke-width="1"/>
+<text x="70" y="240.0" text-anchor="end" font-size="12" fill="#1f2937">0.6</text>
+<line x1="80" y1="314.0" x2="860" y2="314.0" stroke="#e5ded2" stroke-width="1"/>
+<text x="70" y="318.0" text-anchor="end" font-size="12" fill="#1f2937">0.4</text>
+<line x1="80" y1="392.0" x2="860" y2="392.0" stroke="#e5ded2" stroke-width="1"/>
+<text x="70" y="396.0" text-anchor="end" font-size="12" fill="#1f2937">0.2</text>
+<line x1="80" y1="470.0" x2="860" y2="470.0" stroke="#e5ded2" stroke-width="1"/>
+<text x="70" y="474.0" text-anchor="end" font-size="12" fill="#1f2937">0.0</text>
+<rect x="138.5" y="175.4" width="143.0" height="294.6" rx="6" fill="#6b46c1"/>
+<text x="210.0" y="167.4" text-anchor="middle" font-size="14" fill="#1f2937">0.755</text>
+<text x="210.0" y="520" text-anchor="middle" font-size="14" fill="#1f2937">Logistic regression</text>
+<rect x="398.5" y="196.6" width="143.0" height="273.4" rx="6" fill="#2b6cb0"/>
+<text x="470.0" y="188.6" text-anchor="middle" font-size="14" fill="#1f2937">0.701</text>
+<text x="470.0" y="520" text-anchor="middle" font-size="14" fill="#1f2937">Decision tree</text>
+<rect x="658.5" y="184.6" width="143.0" height="285.4" rx="6" fill="#0f766e"/>
+<text x="730.0" y="176.6" text-anchor="middle" font-size="14" fill="#1f2937">0.732</text>
+<text x="730.0" y="520" text-anchor="middle" font-size="14" fill="#1f2937">Random forest</text>
+</svg>

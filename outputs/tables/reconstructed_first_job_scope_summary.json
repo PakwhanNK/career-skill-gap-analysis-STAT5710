@@ -1,0 +1,11 @@
+{
+  "reconstructed_rows": 57808,
+  "reconstructed_cols": 23,
+  "target_rows": 11021,
+  "reviewed_non_target_rows": 14167,
+  "unreviewed_rows": 32620,
+  "reviewed_scope_rows": 25188,
+  "reviewed_scope_cols": 23,
+  "target_share_all_rows": 0.19064835316911155,
+  "target_share_reviewed_scope": 0.43754962680641574
+}

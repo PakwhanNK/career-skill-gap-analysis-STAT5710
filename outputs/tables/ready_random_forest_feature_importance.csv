@@ -1,0 +1,100 @@
+feature,importance
+skill::Analytical Biochemistry,0.16457045683791957
+major_te,0.13844143315537014
+skill::Molecular Biology,0.10811230803857513
+skill::Adherent Cell Culture,0.07994762697634807
+skill::Clinical Leadership,0.07309061018653895
+skill::Phases of Clinical Research,0.06694342878110257
+skill::Life Science,0.05060788150687477
+numconnections,0.03985512146766002
+skill::Clinical Research Associates,0.026948550640400405
+skill::Basic Life Support Certification,0.025858013136669522
+skill::Cardiac Life Support Certification,0.02457186090531455
+skill::Applied Science,0.021918809470314507
+skill::CPR Certified,0.021368619123658866
+skill::Planetary Science,0.020172542241266172
+skill::Healthcare Management,0.018414508530936385
+skill::Healthcare Delivery Process,0.014634836320184233
+skill::Epic EMR,0.010236035643640548
+skill::Clinical Trial Management,0.009924283797139598
+skill::Nursing Research,0.008329479587954478
+skill::Science Communication,0.007847189780257136
+skill::Cancer Research,0.006052477496365498
+prestige,0.005795549720747061
+skill::Trial Practice,0.005264604432475841
+school_te,0.005179900961040746
+skill::Patient Communications,0.005135034454176738
+skill::Patient Safety Standards,0.0051149304987055
+skill::Inpatient Obstetric Nursing,0.0049336586251395335
+skill::Patient Family,0.004722259264710998
+skill::Technical Research,0.004077501648865142
+skill::Technical Nursing Skills,0.0036966379709963857
+skill::Public Health Interventions,0.002860749959108224
+skill::Medical Terminology,0.0027573775580128283
+skill::Psychological Research,0.0022851958098669372
+skill::HIPAA,0.002193406856517103
+skill::Hospital Policy,0.0020952720044096315
+skill::Chemistry Teaching,0.0016524485635021034
+n_skills,0.0014156187632776672
+entry_job_year,0.0010718177566188861
+user_country_te,0.001010285003374396
+skill::Patient Safety,0.0008910834786465953
+skill::Acute Care RN,5.930453165301721e-07
+skill::Construction Management Software,0.0
+skill::Internal Medicine and Pediatrics,0.0
+skill::Training Package,0.0
+skill::Critical Care Nursing,0.0
+skill::Pediatric Intensive Care Unit,0.0
+university_country_te,0.0
+skill::Social Statistics,0.0
+skill::Biomedical Science,0.0
+skill::Intensive Care Medicine,0.0
+degree_te,0.0
+skill::Institutional Review Board Irb,0.0
+skill::Public Health Nursing,0.0
+skill::Clinical Education,0.0
+skill::Activity Program Development,0.0
+skill::Healthcare Procedures,0.0
+skill::Medical Writing,0.0
+skill::Hospital Services,0.0
+skill::Military,0.0
+skill::Patient Advocacy,0.0
+skill::Hospital Settings,0.0
+skill::Clinical Research Coordinator,0.0
+skill::Molecular Genetics,0.0
+skill::Sleep Training,0.0
+skill::Acute Patient Care,0.0
+skill::Sleep Medicine,0.0
+skill::Comparative Law,0.0
+skill::Cellular Neuroscience,0.0
+skill::Geotechnical Engineering,0.0
+skill::Laboratory Instrumentation,0.0
+skill::Natural Science,0.0
+skill::Custom Backend,0.0
+skill::Science Literacy,0.0
+skill::Clinical Practice,0.0
+skill::Malpractice Litigation,0.0
+skill::Neuro ICU,0.0
+skill::Pediatric Emergency Medicine,0.0
+skill::School of Nursing,0.0
+skill::Biological Science,0.0
+skill::Aviation Operations,0.0
+skill::International Arbitration,0.0
+skill::Behavioral Healthcare,0.0
+skill::Pharmaceutical Science,0.0
+skill::Vital Signs,0.0
+skill::Clinical Research,0.0
+skill::Program Evaluation,0.0
+skill::Water Engineering,0.0
+skill::Oncology Nursing,0.0
+skill::Family Mediation,0.0
+skill::Phlebotomy,0.0
+skill::Opinion Writing,0.0
+skill::Electron Microscopy,0.0
+skill::Transmission Electron Microscopy,0.0
+skill::Medical Communications,0.0
+skill::Litigation Support,0.0
+skill::Fluorescence Microscopy,0.0
+skill::Biochemical Genetics,0.0
+skill::Biophysical Chemistry,0.0
+skill::Collaboration in Healthcare,0.0
