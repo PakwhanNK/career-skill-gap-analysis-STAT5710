@@ -1,0 +1,49 @@
+cluster,skill,users,share
+0,Office Management Software,66,0.9295774647887324
+0,Construction Management Software,59,0.8309859154929577
+0,Project Engineer,47,0.6619718309859155
+0,Esprit AutoCAD,44,0.6197183098591549
+0,Geotechnical Engineering,38,0.5352112676056338
+0,Pivot Tables,38,0.5352112676056338
+0,Contract Lifecycle Management,37,0.5211267605633803
+0,MATLAB,37,0.5211267605633803
+1,Legal Writing,149,1.0
+1,Civil Litigation,148,0.9932885906040269
+1,Westlaw,145,0.9731543624161074
+1,Commercial Litigation,144,0.9664429530201343
+1,Corporate Law,138,0.9261744966442953
+1,Legal Research Skills,130,0.87248322147651
+1,Trial Practice,128,0.8590604026845637
+1,Motivational Speaking,123,0.825503355704698
+2,Office Management Software,610,0.8495821727019499
+2,Molecular Biology,571,0.7952646239554317
+2,MATLAB,549,0.7646239554317549
+2,Polymerase Chain Reaction,541,0.7534818941504178
+2,Powerpoint Animation,509,0.7089136490250696
+2,Computational Statistics,490,0.6824512534818942
+2,Adherent Cell Culture,486,0.6768802228412256
+2,Experimental Research,463,0.6448467966573816
+3,Clinical Research Associates,218,0.8515625
+3,Office Management Software,203,0.79296875
+3,Motivational Speaking,197,0.76953125
+3,Powerpoint Animation,170,0.6640625
+3,Pivot Tables,153,0.59765625
+3,Word Processing,152,0.59375
+3,Molecular Biology Assays,150,0.5859375
+3,Clinical Trial Management,124,0.484375
+4,Office Management Software,10596,0.7271479549821576
+4,Powerpoint Animation,8364,0.5739774910787813
+4,C++,6518,0.4472961844633544
+4,Engaging Public Speaker,5505,0.3777793027724403
+4,Structured Query Language Procedural Language,5236,0.35931924238265167
+4,Teamwork,5161,0.35417238539665113
+4,Python Flask,5096,0.34971177600878395
+4,Pivot Tables,5084,0.34888827889102386
+5,Healthcare Management,231,0.9914163090128756
+5,Basic Life Support Certification,220,0.944206008583691
+5,Epic EMR,214,0.9184549356223176
+5,CPR Certified,209,0.8969957081545065
+5,Phases of Clinical Research,191,0.8197424892703863
+5,Hospital Policy,189,0.8111587982832618
+5,Inpatient Obstetric Nursing,179,0.7682403433476395
+5,Healthcare Delivery Process,177,0.759656652360515

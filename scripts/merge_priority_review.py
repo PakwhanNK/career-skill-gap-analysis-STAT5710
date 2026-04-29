@@ -6,8 +6,8 @@ import pandas as pd
 
 
 BASE = Path(r"C:\Users\knich\Projects\career-skill-gap-analysis-STAT5710")
-MAIN_REVIEW = BASE / "outputs" / "tables" / "employer_target_review.csv"
-PRIORITY_REVIEW = BASE / "outputs" / "tables" / "priority_unreviewed_employers.csv"
+MAIN_REVIEW = BASE / "outputs" / "tables" / "employer_review" / "reviewed_companies.csv"
+PRIORITY_REVIEW = BASE / "outputs" / "tables" / "employer_review" / "archive_batches" / "priority_unreviewed_employers.csv"
 
 
 def main() -> None:

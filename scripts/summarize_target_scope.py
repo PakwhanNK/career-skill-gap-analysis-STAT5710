@@ -8,8 +8,8 @@ import pandas as pd
 
 BASE = Path(r"C:\Users\knich\Projects\career-skill-gap-analysis-STAT5710")
 POSITIONS = BASE / "data" / "processed" / "t20_all_positions.csv"
-REVIEW = BASE / "outputs" / "tables" / "employer_target_review.csv"
-OUT_DIR = BASE / "outputs" / "tables"
+REVIEW = BASE / "outputs" / "tables" / "employer_review" / "reviewed_companies.csv"
+OUT_DIR = BASE / "outputs" / "tables" / "archive" / "target_scope"
 OUT_MD = OUT_DIR / "target_scope_summary.md"
 OUT_JSON = OUT_DIR / "target_scope_summary.json"
 OUT_MAJORS = OUT_DIR / "target_scope_top_majors.csv"

@@ -9,8 +9,8 @@ import pandas as pd
 BASE = Path(r"C:\Users\knich\Projects\career-skill-gap-analysis-STAT5710")
 POSITIONS = BASE / "data" / "raw" / "User_positions_grouped.csv"
 EDUCATION = BASE / "data" / "raw" / "Revelio_EDU_18-22.csv"
-REVIEW = BASE / "outputs" / "tables" / "employer_target_review.csv"
-OUT_DIR = BASE / "outputs" / "tables"
+REVIEW = BASE / "outputs" / "tables" / "employer_review" / "reviewed_companies.csv"
+OUT_DIR = BASE / "outputs" / "tables" / "archive" / "reconstruction"
 
 
 def clean_text(series: pd.Series, missing: str = "Missing") -> pd.Series:

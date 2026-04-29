@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1250" height="310" viewBox="0 0 1250 310">
+<rect width="1250" height="310" fill="#faf7f2"/>
+<text x="625.0" y="38" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">Target Rate by Skill Cluster</text>
+<text x="418" y="109" text-anchor="end" font-size="13" fill="#1f2937">Cluster 4</text>
+<rect x="430" y="95" width="730.0" height="18" rx="5" fill="#6b46c1"/>
+<text x="1168.0" y="109" font-size="13" fill="#1f2937">65.8%</text>
+<text x="418" y="139" text-anchor="end" font-size="13" fill="#1f2937">Cluster 1</text>
+<rect x="430" y="125" width="67.0" height="18" rx="5" fill="#6b46c1"/>
+<text x="505.0" y="139" font-size="13" fill="#1f2937">6.0%</text>
+<text x="418" y="169" text-anchor="end" font-size="13" fill="#1f2937">Cluster 2</text>
+<rect x="430" y="155" width="49.4" height="18" rx="5" fill="#6b46c1"/>
+<text x="487.4" y="169" font-size="13" fill="#1f2937">4.5%</text>
+<text x="418" y="199" text-anchor="end" font-size="13" fill="#1f2937">Cluster 0</text>
+<rect x="430" y="185" width="46.9" height="18" rx="5" fill="#6b46c1"/>
+<text x="484.9" y="199" font-size="13" fill="#1f2937">4.2%</text>
+<text x="418" y="229" text-anchor="end" font-size="13" fill="#1f2937">Cluster 3</text>
+<rect x="430" y="215" width="13.0" height="18" rx="5" fill="#6b46c1"/>
+<text x="451.0" y="229" font-size="13" fill="#1f2937">1.2%</text>
+<text x="418" y="259" text-anchor="end" font-size="13" fill="#1f2937">Cluster 5</text>
+<rect x="430" y="245" width="4.8" height="18" rx="5" fill="#6b46c1"/>
+<text x="442.8" y="259" font-size="13" fill="#1f2937">0.4%</text>
+</svg>

@@ -13,16 +13,16 @@
 <text x="70" y="396.0" text-anchor="end" font-size="12" fill="#1f2937">0.2</text>
 <line x1="80" y1="470.0" x2="860" y2="470.0" stroke="#e5ded2" stroke-width="1"/>
 <text x="70" y="474.0" text-anchor="end" font-size="12" fill="#1f2937">0.0</text>
-<rect x="123.9" y="146.6" width="107.3" height="323.4" rx="6" fill="#6b46c1"/>
-<text x="177.5" y="138.6" text-anchor="middle" font-size="14" fill="#1f2937">0.829</text>
+<rect x="123.9" y="146.7" width="107.3" height="323.3" rx="6" fill="#6b46c1"/>
+<text x="177.5" y="138.7" text-anchor="middle" font-size="14" fill="#1f2937">0.829</text>
 <text x="177.5" y="520" text-anchor="middle" font-size="14" fill="#1f2937">Levels 1-2, with seniority predictor</text>
-<rect x="318.9" y="171.9" width="107.3" height="298.1" rx="6" fill="#2b6cb0"/>
-<text x="372.5" y="163.9" text-anchor="middle" font-size="14" fill="#1f2937">0.764</text>
+<rect x="318.9" y="172.2" width="107.3" height="297.8" rx="6" fill="#2b6cb0"/>
+<text x="372.5" y="164.2" text-anchor="middle" font-size="14" fill="#1f2937">0.764</text>
 <text x="372.5" y="520" text-anchor="middle" font-size="14" fill="#1f2937">Levels 1-2, no seniority predictor</text>
 <rect x="513.9" y="163.2" width="107.3" height="306.8" rx="6" fill="#0f766e"/>
 <text x="567.5" y="155.2" text-anchor="middle" font-size="14" fill="#1f2937">0.787</text>
 <text x="567.5" y="520" text-anchor="middle" font-size="14" fill="#1f2937">Seniority 1 only</text>
-<rect x="708.9" y="175.4" width="107.3" height="294.6" rx="6" fill="#d69e2e"/>
-<text x="762.5" y="167.4" text-anchor="middle" font-size="14" fill="#1f2937">0.755</text>
+<rect x="708.9" y="175.0" width="107.3" height="295.0" rx="6" fill="#d69e2e"/>
+<text x="762.5" y="167.0" text-anchor="middle" font-size="14" fill="#1f2937">0.756</text>
 <text x="762.5" y="520" text-anchor="middle" font-size="14" fill="#1f2937">Seniority 2 only</text>
 </svg>

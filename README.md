@@ -26,8 +26,14 @@ The seniority restriction is intentional. Sensitivity checks showed that `senior
 scripts/
   Reproducible data preparation, employer review, EDA, and modeling scripts.
 
-outputs/tables/
+outputs/tables/final/
   Aggregate result tables, model reports, sensitivity checks, and the main summary report.
+
+outputs/tables/employer_review/
+  Canonical reviewed employer-label table and archived manual-review batches.
+
+outputs/tables/modeling_data/
+  Row-level modeling datasets generated locally for analysis. These are not committed.
 
 outputs/figures/
   Report-ready SVG visualizations for EDA, classification, seniority sensitivity, and 2024-vs-2025 comparisons.
@@ -64,12 +70,12 @@ Supporting scripts in `scripts/` reconstruct the first-job scope, merge manual e
 
 The most useful report-facing files are:
 
-- `outputs/tables/ready_analysis_results_summary_report.md`
-- `outputs/tables/ready_classification_report.md`
-- `outputs/tables/ready_non_skill_logistic_metrics.csv`
-- `outputs/tables/ready_non_skill_logistic_log_odds_p_values_sorted_by_significance.csv`
-- `outputs/tables/ready_seniority_sensitivity_report.md`
-- `outputs/tables/ready_yoy_2024_2025_report.md`
+- `outputs/tables/final/ready_analysis_results_summary_report.md`
+- `outputs/tables/final/ready_classification_report.md`
+- `outputs/tables/final/ready_non_skill_logistic_metrics.csv`
+- `outputs/tables/final/ready_non_skill_logistic_log_odds_p_values_sorted_by_significance.csv`
+- `outputs/tables/final/ready_seniority_sensitivity_report.md`
+- `outputs/tables/final/ready_yoy_2024_2025_report.md`
 
 Key figures include:
 
@@ -125,4 +131,4 @@ For role comparisons, the report emphasizes within-year percentages while still 
 
 ## Recommended Citation of Results
 
-Use `outputs/tables/ready_analysis_results_summary_report.md` as the primary written summary of the modeling pipeline, EDA findings, regression results, sensitivity checks, and caveats.
+Use `outputs/tables/final/ready_analysis_results_summary_report.md` as the primary written summary of the modeling pipeline, EDA findings, regression results, sensitivity checks, and caveats.

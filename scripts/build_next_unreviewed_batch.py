@@ -8,7 +8,7 @@ import pandas as pd
 
 BASE = Path(r"C:\Users\knich\Projects\career-skill-gap-analysis-STAT5710")
 COHORT = BASE / "outputs" / "tables" / "reconstructed_first_job_scope_sample.csv"
-OUT = BASE / "outputs" / "tables" / "priority_unreviewed_employers_batch2.csv"
+OUT = BASE / "outputs" / "tables" / "employer_review" / "archive_batches" / "priority_unreviewed_employers_next.csv"
 
 TECH_PATTERNS = [
     r"\bsoftware\b",
@@ -125,6 +125,7 @@ def suggest(name: str) -> tuple[str, str, str]:
 
 
 def main() -> None:
+    OUT.parent.mkdir(parents=True, exist_ok=True)
     df = pd.read_csv(COHORT)
     manual_raw = df["manual_decision"]
     manual = manual_raw.astype(str).str.strip().replace({"nan": "", "1.0": "1", "0.0": "0"})

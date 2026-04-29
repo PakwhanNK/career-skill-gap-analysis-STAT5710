@@ -1,0 +1,23 @@
+school,users,target_users,non_target_users,target_share
+California Institute of Technology,115,84,31,0.7304347826086957
+Rice University,341,230,111,0.6744868035190615
+Cornell University,1443,940,503,0.6514206514206514
+Massachusetts Institute of Technology,536,344,192,0.6417910447761194
+Stanford University,467,296,171,0.6338329764453962
+Princeton University,423,267,156,0.6312056737588653
+University of Pennsylvania,1195,753,442,0.6301255230125523
+Vanderbilt University,615,385,230,0.6260162601626016
+University of California Berkeley,2451,1531,920,0.6246430028559772
+Columbia University in the City of New York,877,547,330,0.6237172177879133
+Harvard University,459,286,173,0.6230936819172114
+Duke University,761,455,306,0.5978975032851511
+Dartmouth College,409,244,165,0.5965770171149144
+Yale University,439,259,180,0.5899772209567198
+University of Chicago,646,380,266,0.5882352941176471
+Brown University,537,315,222,0.5865921787709497
+Northwestern University,676,388,288,0.5739644970414202
+University of Michigan,1814,1028,786,0.5667034178610805
+University of Notre Dame,744,418,326,0.5618279569892473
+Washington University in St. Louis,564,315,249,0.5585106382978723
+Johns Hopkins University,298,114,184,0.3825503355704698
+Duke University School of Nursing,77,0,77,0.0

@@ -1,0 +1,425 @@
+company_name,rcid,top_first_job_count,latest_profile_count_proxy,in_excel_popular_list,excel_industry,hq_state,suggested_bucket,suggested_action,confidence,manual_decision,notes
+University of California,,402,0,0,,,exclude,accept_if_sensible,high,0,exclude pattern: \buniversity\b
+University of Michigan,,337,0,0,,,exclude,accept_if_sensible,high,0,exclude pattern: \buniversity\b
+Government of the United States of America,,245,0,0,,,exclude,accept_if_sensible,high,0,exclude pattern: \bgovernment\b
+"Amazon.com, Inc.",,222,0,1,Digital Commerce Services,Washington,tech,accept_if_sensible,high,1,exact target list match
+Cornell University,,213,0,0,,,exclude,accept_if_sensible,high,0,exclude pattern: \buniversity\b
+The Trustees of Columbia University in The City of New York,,157,0,0,,,exclude,accept_if_sensible,high,0,exclude pattern: \buniversity\b
+Stanford University,,128,0,0,,,exclude,accept_if_sensible,high,0,exclude pattern: \buniversity\b
+"The Goldman Sachs Group, Inc.",,119,0,1,Financial Services,New York,finance,accept_if_sensible,high,1,exact target list match
+University of Pennsylvania,,119,0,0,,,exclude,accept_if_sensible,high,0,exclude pattern: \buniversity\b
+Microsoft Corp.,,108,0,1,Information Technology Services,Washington,tech,accept_if_sensible,high,1,exact target list match
+JPMorgan Chase & Co.,,104,0,1,Financial Services,New York,finance,accept_if_sensible,high,1,exact target list match
+Northwestern University,,102,0,0,,,exclude,accept_if_sensible,high,0,exclude pattern: \buniversity\b
+"Alphabet, Inc.",,93,0,0,,,tech,accept_if_sensible,high,1,exact target list match
+"The Boston Consulting Group, Inc.",,91,0,1,Consulting and Advisory Services,Massachusetts,consulting,review,medium,1,consulting keyword: \bconsult
+Washington University in St. Louis,,90,0,0,,,exclude,accept_if_sensible,high,0,exclude pattern: \buniversity\b
+The University of Chicago,,87,0,0,,,exclude,accept_if_sensible,high,0,exclude pattern: \buniversity\b
+Massachusetts Institute of Technology,,87,0,0,,,exclude,accept_if_sensible,high,0,exclude pattern: \binstitute\b
+Vanderbilt University,,83,0,0,,,exclude,accept_if_sensible,high,0,exclude pattern: \buniversity\b
+Capital One Financial Corp.,,73,0,1,Financial Services,Virginia,finance,accept_if_sensible,high,1,exact target list match
+"Meta Platforms, Inc.",,73,0,0,,,tech,accept_if_sensible,high,1,exact target list match
+Duke University,,71,0,0,,,exclude,accept_if_sensible,high,0,exclude pattern: \buniversity\b
+University of Notre Dame,,65,0,0,,,exclude,accept_if_sensible,high,0,exclude pattern: \buniversity\b
+Bank of America Corp.,,57,0,1,Financial Services,North Carolina,finance,review,medium,1,finance keyword: \bbank\b
+Yale University,,54,0,0,,,exclude,accept_if_sensible,high,0,exclude pattern: \buniversity\b
+Brown University,,54,0,0,,,exclude,accept_if_sensible,high,0,exclude pattern: \buniversity\b
+Accenture Plc,1230770.0,0,0,1,IT Consulting Services,Leinster,consulting,accept_if_sensible,high,1,exact target list match
+"Adobe, Inc.",766625.0,0,0,1,Information Technology Services,California,tech,accept_if_sensible,high,1,exact target list match
+American Express Co.,1104097.0,0,0,1,Information Technology Services,New York,finance,accept_if_sensible,high,1,exact target list match
+"Amgen, Inc.",906797.0,0,0,1,Pharmaceuticals,California,other_or_review,review,low,0,no exact match or sector keyword
+"Anduril Industries, Inc.",300759.0,0,0,1,Aerospace and Defense,California,other_or_review,review,low,0,no exact match or sector keyword
+Anheuser Busch Inbev,2018508.0,0,0,1,,Pharmaceuticals,other_or_review,review,low,0,no exact match or sector keyword
+"Apollo Global Management, Inc.",21048147.0,0,0,1,Financial Services,New York,finance,accept_if_sensible,high,1,exact target list match
+"Apple, Inc.",1232095.0,0,0,1,Electronics Manufacturing,California,tech,accept_if_sensible,high,1,exact target list match
+"Applied Materials, Inc.",1246081.0,0,0,1,Electronics Manufacturing,California,other_or_review,review,low,0,no exact match or sector keyword
+"AT&T, Inc.",97840.0,0,0,1,Telecommunications Services,Texas,other_or_review,review,low,1,no exact match or sector keyword
+"Bain & Co., Inc.",1266369.0,0,0,1,Consulting and Advisory Services,Massachusetts,other_or_review,review,low,1,no exact match or sector keyword
+Bain Capital LP,675214.0,0,0,1,Financial Services,Massachusetts,finance,review,medium,1,finance keyword: \bcapital\b
+Balyasny Asset Management LP,41000.0,0,0,1,Financial Services,Illinois,finance,review,medium,1,finance keyword: \basset\b
+Barclays PLC,22151194.0,0,0,1,Financial Services,England,other_or_review,review,low,1,no exact match or sector keyword
+Biogen,2359135.0,0,0,1,Wellness Products,Gauteng,other_or_review,review,low,0,no exact match or sector keyword
+"BlackRock Finance, Inc.",1144595.0,0,0,1,Financial Services,New York,other_or_review,review,low,1,no exact match or sector keyword
+Blue Origin Washington LLC,136845.0,0,0,1,Energy and Resources,Washington,other_or_review,review,low,1,no exact match or sector keyword
+BNP Paribas SA,792141.0,0,0,1,Financial Services,Ile-de-France,other_or_review,review,low,1,no exact match or sector keyword
+The Boeing Co.,961524.0,0,0,1,Aerospace and Defense,Virginia,other_or_review,review,low,0,no exact match or sector keyword
+Bristol Myers Squibb Co.,1122234.0,0,0,1,Pharmaceuticals,New Jersey,other_or_review,review,low,1,no exact match or sector keyword
+Broadridge (Japan) Ltd.,6968218.0,0,0,1,Information Technology Services,New York,other_or_review,review,low,0,no exact match or sector keyword
+"The Capital Group Cos., Inc.",826397.0,0,0,1,Financial Services,California,finance,review,medium,1,finance keyword: \bcapital\b
+"Caterpillar, Inc.",1047983.0,0,0,1,Energy and Resources,Texas,other_or_review,review,low,1,no exact match or sector keyword
+"CenterPoint Energy, Inc.",445083.0,0,0,1,Energy and Resources,Texas,other_or_review,review,low,1,no exact match or sector keyword
+Chevron Corp.,635563.0,0,0,1,Energy and Resources,Texas,other_or_review,review,low,1,no exact match or sector keyword
+"Choice Hotels International, Inc.",22144010.0,0,0,1,Hospitality and Tourism Management,Maryland,other_or_review,review,low,1,no exact match or sector keyword
+"Cisco Systems, Inc.",1400574.0,0,0,1,Information Technology Services,California,tech,review,medium,1,tech keyword: \bsystems\b
+"Citigroup, Inc.",267301.0,0,0,1,Financial Services,New York,other_or_review,review,low,1,no exact match or sector keyword
+Deloitte LLP (New York),20937770.0,0,0,1,Consulting and Advisory Services,New York,other_or_review,review,low,1,no exact match or sector keyword
+Deutsche Bank AG,532877.0,0,0,1,Financial Services,Hesse,finance,review,medium,1,finance keyword: \bbank\b
+"Doximity, Inc.",1416523.0,0,0,1,Biotech and Healthcare Services,California,other_or_review,review,low,1,no exact match or sector keyword
+Ernst & Young Global Ltd.,1301557.0,0,0,1,Consulting and Advisory Services,England,other_or_review,review,low,1,no exact match or sector keyword
+"Evercore, Inc.",22148155.0,0,0,1,Financial Services,New York,other_or_review,review,low,1,no exact match or sector keyword
+Exxon Mobil Corp.,912348.0,0,0,1,Energy and Resources,Texas,other_or_review,review,low,1,no exact match or sector keyword
+Ford Motor Co.,860320.0,0,0,1,Automotive Services,Michigan,other_or_review,review,low,1,no exact match or sector keyword
+General Motors Co.,1398143.0,0,0,1,Automotive Services,Michigan,other_or_review,review,low,1,no exact match or sector keyword
+Google LLC,233459.0,0,0,1,Digital Commerce Services,California,other_or_review,review,low,1,no exact match or sector keyword
+"Houlihan Lokey, Inc.",279074.0,0,0,1,Financial Services,California,other_or_review,review,low,0,no exact match or sector keyword
+International Business Machines Corp.,22142390.0,0,0,1,Information Technology Services,New York,other_or_review,review,low,0,no exact match or sector keyword
+Infosys Ltd.,809141.0,0,0,1,IT Consulting Services,Karnataka,other_or_review,review,low,1,no exact match or sector keyword
+"Intuit, Inc.",1050907.0,0,0,1,Information Technology Services,California,other_or_review,review,low,1,no exact match or sector keyword
+"Jefferies Financial Group, Inc.",22142421.0,0,0,1,Financial Services,New York,finance,review,medium,1,finance keyword: \bfinancial\b
+Deere & Co.,1235260.0,0,0,1,Industrial Manufacturing,Illinois,other_or_review,review,low,1,no exact match or sector keyword
+"KKR Group Co., Inc.",786785.0,0,0,1,Financial Services,New York,other_or_review,review,low,1,no exact match or sector keyword
+KPMG LLP,690100.0,0,0,1,Consulting and Advisory Services,New York,consulting,accept_if_sensible,high,1,exact target list match
+"Mastercard, Inc.",7963787.0,0,0,1,Information Technology Services,New York,other_or_review,review,low,1,no exact match or sector keyword
+"McKinsey & Co., Inc.",22150963.0,0,0,1,Consulting and Advisory Services,New York,other_or_review,review,low,1,no exact match or sector keyword
+Morgan Stanley,1485785.0,0,0,1,Financial Services,New York,finance,accept_if_sensible,high,1,exact target list match
+"NIKE, Inc.",775676.0,0,0,1,Apparel Retail,Oregon,other_or_review,review,low,0,no exact match or sector keyword
+Northrop Grumman Corp.,851738.0,0,0,1,Aerospace and Defense,Virginia,other_or_review,review,low,1,no exact match or sector keyword
+NVIDIA Corp.,1223555.0,0,0,1,Electronics Manufacturing,California,other_or_review,review,low,1,no exact match or sector keyword
+"Oliver Wyman, Inc.",700308.0,0,0,1,Consulting and Advisory Services,New York,other_or_review,review,low,1,no exact match or sector keyword
+Oracle Corp.,472640.0,0,0,1,Information Technology Services,Texas,other_or_review,review,low,1,no exact match or sector keyword
+"Palantir Technologies, Inc.",1010813.0,0,0,1,Information Technology Services,Florida,tech,review,medium,1,tech keyword: \btechnolog
+"PepsiCo, Inc.",1112079.0,0,0,1,Food and Beverage,New York,other_or_review,review,low,1,no exact match or sector keyword
+"The PNC Financial Services Group, Inc.",22142569.0,0,0,1,Financial Services,Pennsylvania,finance,review,medium,1,finance keyword: \bfinancial\b
+Procter & Gamble Co.,513460.0,0,0,1,Wellness Products,Ohio,other_or_review,review,low,0,no exact match or sector keyword
+PricewaterhouseCoopers LLP,709929.0,0,0,1,Consulting and Advisory Services,New York,consulting,accept_if_sensible,high,0,exact target list match
+"ResMed, Inc.",370332.0,0,0,1,Healthcare and Wellness Services,California,other_or_review,review,low,0,no exact match or sector keyword
+Revolut Ltd.,233467.0,0,0,1,Digital Commerce Services,England,other_or_review,review,low,0,no exact match or sector keyword
+"Rivian Automotive, Inc.",22237205.0,0,0,1,Automotive Services,California,other_or_review,review,low,1,no exact match or sector keyword
+Royal Bank Of Canada,5959773.0,0,0,1,,Professional Development Services,finance,review,medium,1,finance keyword: \bbank\b
+"Salesforce, Inc.",115177.0,0,0,1,Information Technology Services,California,other_or_review,review,low,1,no exact match or sector keyword
+"Samsung Electronics Co., Ltd.",1032978.0,0,0,1,Electronics Manufacturing,Gyeonggi-do,other_or_review,review,low,1,no exact match or sector keyword
+Sanofi,462023.0,0,0,1,Pharmaceuticals,Ile-de-France,other_or_review,review,low,1,no exact match or sector keyword
+"Santander Bank, NA (Wilmington, Delaware)",1502483.0,0,0,1,Financial Services,Delaware,finance,review,medium,1,finance keyword: \bbank\b
+Shell Plc,347298.0,0,0,1,Energy and Resources,England,other_or_review,review,low,1,no exact match or sector keyword
+Siemens AG,1314485.0,0,0,1,Energy and Resources,Bavaria,other_or_review,review,low,1,no exact match or sector keyword
+Silver Lake Management Co. LLC,618378.0,0,0,1,Financial Services,California,other_or_review,review,low,1,no exact match or sector keyword
+"Snap, Inc.",692801.0,0,0,1,Digital Commerce Services,California,other_or_review,review,low,1,no exact match or sector keyword
+"SoFi Technologies, Inc.",21048180.0,0,0,1,Information Technology Services,California,tech,review,medium,1,tech keyword: \btechnolog
+Space Exploration Technologies Corp.,1012186.0,0,0,1,Aerospace and Defense,California,tech,review,medium,1,tech keyword: \btechnolog
+"S&P Global, Inc.",296301.0,0,0,1,Financial Services,New York,other_or_review,review,low,1,no exact match or sector keyword
+Starbucks Corp.,1037635.0,0,0,1,Hospitality and Tourism Management,Washington,other_or_review,review,low,0,no exact match or sector keyword
+"Stripe, Inc.",906508.0,0,0,1,Information Technology Services,California,tech,accept_if_sensible,high,1,exact target list match
+Target Corp.,739347.0,0,0,1,Retail and Consumer Goods,Minnesota,other_or_review,review,low,0,no exact match or sector keyword
+Temasek Holdings Pte Ltd.,480127.0,0,0,1,,Financial Services,other_or_review,review,low,0,no exact match or sector keyword
+"Tesla, Inc.",803508.0,0,0,1,Energy and Resources,Texas,other_or_review,review,low,1,no exact match or sector keyword
+"The Trade Desk, Inc.",832518.0,0,0,1,Digital Commerce Services,California,other_or_review,review,low,1,no exact match or sector keyword
+"Uber Technologies, Inc.",500864.0,0,0,1,Digital Commerce Services,California,tech,review,medium,1,tech keyword: \btechnolog
+UBS AG,560872.0,0,0,1,Financial Services,Zurich,other_or_review,review,low,1,no exact match or sector keyword
+"Verizon Communications, Inc.",20921455.0,0,0,1,Telecommunications Services,New York,other_or_review,review,low,1,no exact match or sector keyword
+"Visa, Inc.",1058117.0,0,0,1,Information Technology Services,California,other_or_review,review,low,1,no exact match or sector keyword
+Wells Fargo & Co.,1191500.0,0,0,1,Financial Services,California,other_or_review,review,low,1,no exact match or sector keyword
+Akuna Securities LLC,26990604.0,0,0,1,,,finance,review,medium,1,finance keyword: \bsecurities\b
+AQR Capital Management LLC,857329.0,0,0,1,,,finance,review,medium,1,finance keyword: \bcapital\b
+Bridgewater Associates LP,211728.0,0,0,1,,,other_or_review,review,low,1,no exact match or sector keyword
+Citadel Enterprise Americas LLC,1495198.0,0,0,1,,,other_or_review,review,low,1,no exact match or sector keyword
+Citadel Securities LLC,98807897.0,0,0,1,,,quant,accept_if_sensible,high,1,exact target list match
+DRW Holdings LLC,23458589.0,0,0,1,,,other_or_review,review,low,1,no exact match or sector keyword
+Flow Traders BV,356719.0,0,0,1,,,other_or_review,review,low,1,no exact match or sector keyword
+Hudson River Trading LLC,1406919.0,0,0,1,,,quant,accept_if_sensible,high,1,exact target list match
+IMC Trading BV,915003.0,0,0,1,,,quant,review,medium,1,quant keyword: \btrading\b
+Jane Street Group LLC,22150778.0,0,0,1,,,other_or_review,review,low,1,no exact match or sector keyword
+Jump Trading LLC,77744.0,0,0,1,,,quant,review,medium,1,quant keyword: \btrading\b
+Millennium Management LLC,818770.0,0,0,1,,,other_or_review,review,low,1,no exact match or sector keyword
+Optiver Holding BV,946155.0,0,0,1,,,other_or_review,review,low,1,no exact match or sector keyword
+Point72 LP,8062190.0,0,0,1,,,other_or_review,review,low,1,no exact match or sector keyword
+Two Sigma Investments LP,1245348.0,0,0,1,,,finance,review,medium,1,finance keyword: \binvest
+Harvard University,,0,0,0,,,exclude,review,high,0,exclude pattern: \buniversity\b
+PricewaterhouseCoopers International Ltd.,,0,0,0,,,consulting,review,high,1,exact mapping
+The Johns Hopkins University,,0,0,0,,,exclude,review,high,0,exclude pattern: \buniversity\b
+Epic Systems Corp.,,0,0,0,,,tech,review,high,1,exact mapping
+"Mass General Brigham, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+Princeton University,,0,0,0,,,exclude,review,high,0,exclude pattern: \buniversity\b
+"Bloomberg, Inc.",,0,0,0,,,finance,review,high,1,exact mapping
+KPMG International Cooperative,,0,0,0,,,consulting,review,high,1,exact mapping
+"Blackstone, Inc.",,0,0,0,,,finance,review,high,1,exact mapping
+Alphasights Holdings Ltd.,,0,0,0,,,consulting,review,high,1,exact mapping
+"BlackRock, Inc.",,0,0,0,,,finance,review,high,1,exact mapping
+"Teach For America, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+The Walt Disney Co.,,0,0,0,,,other_or_review,review,low,1,no rule match
+"Marsh & McLennan Cos., Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+New York University,,0,0,0,,,exclude,review,high,0,exclude pattern: \buniversity\b
+State of California,,0,0,0,,,exclude,review,high,0,exclude pattern: \bstate of\b
+"Cornerstone Research, Inc.",,0,0,0,,,consulting,review,high,1,exact mapping
+UBS Group AG,,0,0,0,,,finance,review,high,1,exact mapping
+The University of Texas System,,0,0,0,,,exclude,review,high,0,exclude pattern: \buniversity\b
+State of New York,,0,0,0,,,exclude,review,high,0,exclude pattern: \bstate of\b
+Lockheed Martin Corp.,,0,0,0,,,other_or_review,review,low,1,no rule match
+RTX Corp.,,0,0,0,,,other_or_review,review,low,1,no rule match
+Weill Cornell Medicine,,0,0,0,,,other_or_review,review,low,0,no rule match
+Dartmouth College,,0,0,0,,,exclude,review,high,0,exclude pattern: \bcollege\b
+"Netflix, Inc.",,0,0,0,,,tech,review,high,1,exact mapping
+The Children's Hospital of Philadelphia Foundation,,0,0,0,,,exclude,review,high,0,exclude pattern: \bhospital\b
+The Mount Sinai Hospital,,0,0,0,,,exclude,review,high,0,exclude pattern: \bhospital\b
+Comcast Corp.,,0,0,0,,,other_or_review,review,low,1,no rule match
+Roblox Corp.,,0,0,0,,,tech,review,high,1,exact mapping
+Clearview Healthcare Partners LLC,,0,0,0,,,other_or_review,review,low,0,no rule match
+The Johns Hopkins Health System Corp.,,0,0,0,,,exclude,review,high,0,exclude pattern: \bhealth\b
+Federal Reserve System,,0,0,0,,,other_or_review,review,low,1,no rule match
+The Children's Medical Center Corp.,,0,0,0,,,exclude,review,high,0,exclude pattern: \bmedical\b
+Carnegie Mellon University,,0,0,0,,,exclude,review,high,0,exclude pattern: \buniversity\b
+University of Washington,,0,0,0,,,exclude,review,high,0,exclude pattern: \buniversity\b
+University of North Carolina System,,0,0,0,,,exclude,review,high,0,exclude pattern: \buniversity\b
+U.S. Navy,,0,0,0,,,other_or_review,review,low,0,no rule match
+"DoorDash, Inc.",,0,0,0,,,other_or_review,review,low,1,no rule match
+University of Southern California,,0,0,0,,,exclude,review,high,0,exclude pattern: \buniversity\b
+SoundCommerce LLC,,0,0,0,,,other_or_review,review,low,0,no rule match
+Kirkland & Ellis LLP,,0,0,0,,,other_or_review,review,low,0,no rule match
+Atlassian Corp.,,0,0,0,,,other_or_review,review,low,1,no rule match
+FMR LLC,,0,0,0,,,other_or_review,review,low,0,no rule match
+Georgetown University,,0,0,0,,,exclude,review,high,0,exclude pattern: \buniversity\b
+Memorial Sloan Kettering Cancer Center,,0,0,0,,,other_or_review,review,low,0,no rule match
+NYU Langone Health,,0,0,0,,,exclude,review,high,0,exclude pattern: \bhealth\b
+Intel Corp.,,0,0,0,,,other_or_review,review,low,1,no rule match
+California Institute of Technology,,0,0,0,,,exclude,review,high,0,exclude pattern: \binstitute\b
+United Talent Agency LLC (California),,0,0,0,,,other_or_review,review,low,0,no rule match
+Georgia Institute of Technology,,0,0,0,,,exclude,review,high,0,exclude pattern: \binstitute\b
+"Endeavor Group Holdings, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+Government of France,,0,0,0,,,exclude,review,high,0,exclude pattern: \bgovernment\b
+"Walmart, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+Guggenheim Capital LLC,,0,0,0,,,finance,review,medium,1,finance keyword: \bcapital\b
+CAA Holdings LLC,,0,0,0,,,other_or_review,review,low,0,no rule match
+"Databricks, Inc.",,0,0,0,,,other_or_review,review,low,1,no rule match
+William Marsh Rice University,,0,0,0,,,exclude,review,high,0,exclude pattern: \buniversity\b
+"The NewYork-Presbyterian Healthcare System, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+General Dynamics Corp.,,0,0,0,,,other_or_review,review,low,0,no rule match
+"Berkshire Hathaway, Inc.",,0,0,0,,,other_or_review,review,low,1,no rule match
+"Datadog, Inc.",,0,0,0,,,other_or_review,review,low,1,no rule match
+Roche Holding AG,,0,0,0,,,other_or_review,review,low,0,no rule match
+"Veeva Systems, Inc.",,0,0,0,,,tech,review,medium,1,tech keyword: \bsystems\b
+CVS Health Corp.,,0,0,0,,,exclude,review,high,0,exclude pattern: \bhealth\b
+TikTok USDS Joint Venture LLC,,0,0,0,,,other_or_review,review,low,1,no rule match
+"Nomura Holdings, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+University of Wisconsin,,0,0,0,,,exclude,review,high,0,exclude pattern: \buniversity\b
+"ScribeAmerica, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+Emory University,,0,0,0,,,exclude,review,high,0,exclude pattern: \buniversity\b
+Imc Global Holdings LLC,,0,0,0,,,other_or_review,review,low,1,no rule match
+City of New York (New York),,0,0,0,,,other_or_review,review,low,0,no rule match
+"UnitedHealth Group, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+Point72 Capital Holdings LP,,0,0,0,,,finance,review,medium,1,finance keyword: \bcapital\b
+MLM Trust B,,0,0,0,,,other_or_review,review,low,0,no rule match
+"Paul, Weiss, Rifkind, Wharton & Garrison LLP",,0,0,0,,,other_or_review,review,low,0,no rule match
+"KKR & Co., Inc.",,0,0,0,,,other_or_review,review,low,1,no rule match
+GFH CSEVA LLC,,0,0,0,,,other_or_review,review,low,0,no rule match
+"ServiceNow, Inc.",,0,0,0,,,other_or_review,review,low,1,no rule match
+Centerview Partners Advisory Holdings LLC,,0,0,0,,,consulting,review,medium,1,consulting keyword: \badvis
+J.P. Morgan Private Bank,,0,0,0,,,finance,review,medium,1,finance keyword: \bbank\b
+"Ringle English Education Service Co., Ltd.",,0,0,0,,,other_or_review,review,low,0,no rule match
+"Omnicom Group, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+"Duolingo, Inc.",,0,0,0,,,other_or_review,review,low,1,no rule match
+Pfizer Inc.,,0,0,0,,,other_or_review,review,low,0,no rule match
+"PJT Partners, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+D. E. Shaw & Co. LP,,0,0,0,,,other_or_review,review,low,1,no rule match
+Stanford University School of Engineering,,0,0,0,,,exclude,review,high,0,exclude pattern: \buniversity\b
+Allianz SE,,0,0,0,,,other_or_review,review,low,0,no rule match
+"WSP Global, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+Abbott Laboratories,,0,0,0,,,other_or_review,review,low,0,no rule match
+WBC Holdings LP,,0,0,0,,,other_or_review,review,low,0,no rule match
+L.E.K. Consulting Group Ltd.,,0,0,0,,,consulting,review,medium,1,consulting keyword: \bconsult
+Fulbright Association,,0,0,0,,,other_or_review,review,low,0,no rule match
+"Lazard, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+"CRA International, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+Center for Advanced Retinal & Ocular Therapies,,0,0,0,,,other_or_review,review,low,0,no rule match
+Publicis Groupe SA,,0,0,0,,,other_or_review,review,low,0,no rule match
+Paramount Skydance Corp.,,0,0,0,,,other_or_review,review,low,0,no rule match
+University of Oxford,,0,0,0,,,exclude,review,high,0,exclude pattern: \buniversity\b
+University of Virginia,,0,0,0,,,exclude,review,high,0,exclude pattern: \buniversity\b
+Dataannotation Tech,,0,0,0,,,other_or_review,review,low,0,no rule match
+"Merck & Co., Inc.",,0,0,0,,,other_or_review,review,high,0,exact mapping
+"Huron Consulting Group, Inc.",,0,0,0,,,consulting,review,high,1,exact mapping
+Johnson & Johnson,,0,0,0,,,other_or_review,review,high,0,exact mapping
+"Mizuho Financial Group, Inc.",,0,0,0,,,finance,review,high,1,exact mapping
+Stealth Startup,,0,0,0,,,other_or_review,review,high,0,exact mapping
+Texas Instruments Incorporated,,0,0,0,,,tech,review,high,1,exact mapping
+University of Cambridge,,0,0,0,,,exclude,review,high,0,exact mapping
+ASML Holding NV,,0,0,0,,,tech,review,high,1,exact mapping
+Davis Polk & Wardwell LLP,,0,0,0,,,other_or_review,review,high,0,exact mapping
+Government of Singapore,,0,0,0,,,exclude,review,high,0,exact mapping
+Moelis & Co.,,0,0,0,,,finance,review,high,1,exact mapping
+Perella Weinberg Partners,,0,0,0,,,finance,review,high,1,exact mapping
+The Toronto-Dominion Bank,,0,0,0,,,finance,review,medium,1,finance keyword: \bbank\b
+"United Airlines Holdings, Inc.",,0,0,0,,,other_or_review,review,high,0,exact mapping
+Aon Plc,,0,0,0,,,consulting,review,high,1,exact mapping
+Boston University,,0,0,0,,,exclude,review,high,0,exact mapping
+Eli Lilly & Co.,,0,0,0,,,other_or_review,review,low,0,no rule match
+HRT Capital LLC,,0,0,0,,,finance,review,medium,1,finance keyword: \bcapital\b
+McMaster-Carr Supply Co.,,0,0,0,,,other_or_review,review,high,0,exact mapping
+"Scale AI, Inc.",,0,0,0,,,tech,review,high,1,exact mapping
+Bridgewater Associates Holdings LLC,,0,0,0,,,other_or_review,review,low,1,no rule match
+"Dana-Farber Cancer Institute, Inc.",,0,0,0,,,exclude,review,high,0,exclude pattern: \binstitute\b
+"Raymond James Financial, Inc.",,0,0,0,,,finance,review,medium,1,finance keyword: \bfinancial\b
+Ares Management Corp.,,0,0,0,,,other_or_review,review,low,0,no rule match
+"Beth Israel Lahey Health, Inc.",,0,0,0,,,exclude,review,high,0,exclude pattern: \bhealth\b
+"IXL Learning, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+"National Football League, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+"Pinterest, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+Sullivan & Cromwell LLP,,0,0,0,,,other_or_review,review,low,0,no rule match
+"The Broad Institute, Inc.",,0,0,0,,,exclude,review,high,0,exclude pattern: \binstitute\b
+University of Illinois At Urbana–Champaign,,0,0,0,,,exclude,review,high,0,exclude pattern: \buniversity\b
+Bain Capital Holdings LP,,0,0,0,,,finance,review,medium,1,finance keyword: \bcapital\b
+Beaumont Health,,0,0,0,,,exclude,review,high,0,exclude pattern: \bhealth\b
+Five Rings LLC,,0,0,0,,,other_or_review,review,low,1,no rule match
+"Macy's, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+Moody's Corp.,,0,0,0,,,other_or_review,review,low,0,no rule match
+Ove Arup Partnership Charitable Trust,,0,0,0,,,other_or_review,review,low,0,no rule match
+"QUALCOMM, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+"Success Academy Charter Schools, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+The Bank of New York Mellon Corp.,,0,0,0,,,finance,review,medium,1,finance keyword: \bbank\b
+"ZS Associates, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+"Analysis Group, Inc. (Massachusetts)",,0,0,0,,,other_or_review,review,low,0,no rule match
+Baylor College of Medicine,,0,0,0,,,exclude,review,high,0,exclude pattern: \bcollege\b
+Booz Allen Hamilton Holding Corp.,,0,0,0,,,other_or_review,review,low,0,no rule match
+"DraftKings, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+Government of China,,0,0,0,,,exclude,review,high,0,exclude pattern: \bgovernment\b
+Macquarie Group Ltd.,,0,0,0,,,other_or_review,review,low,0,no rule match
+"Philadelphia Trading, Inc.",,0,0,0,,,quant,review,medium,1,quant keyword: \btrading\b
+Rothschild & Co. SCA,,0,0,0,,,other_or_review,review,low,0,no rule match
+Scully Royalty Ltd.,,0,0,0,,,other_or_review,review,low,0,no rule match
+The Northwestern Mutual Life Insurance Co.,,0,0,0,,,other_or_review,review,low,0,no rule match
+"Burns & McDonnell, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+L'Oréal SA,,0,0,0,,,other_or_review,review,low,0,no rule match
+"Northwell Health, Inc.",,0,0,0,,,exclude,review,high,0,exclude pattern: \bhealth\b
+"Skadden, Arps, Slate, Meagher & Flom LLP",,0,0,0,,,other_or_review,review,high,0,exact mapping
+Sony Group Corp.,,0,0,0,,,other_or_review,review,low,0,no rule match
+Stryker Corp.,,0,0,0,,,other_or_review,review,low,0,no rule match
+University of Illinois,,0,0,0,,,exclude,review,high,0,exclude pattern: \buniversity\b
+University of Maryland,,0,0,0,,,exclude,review,high,0,exclude pattern: \buniversity\b
+WPP Plc,,0,0,0,,,other_or_review,review,low,0,no rule match
+"Warner Bros. Discovery, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+Altman Solon GmbH & Co. KG,,0,0,0,,,other_or_review,review,low,0,no rule match
+"City Year, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+InterSystems Corp.,,0,0,0,,,other_or_review,review,low,0,no rule match
+Kobre & Kim LLP,,0,0,0,,,other_or_review,review,low,0,no rule match
+"L3Harris Technologies, Inc.",,0,0,0,,,tech,review,medium,1,tech keyword: \btechnolog
+Stifel Financial Corp.,,0,0,0,,,finance,review,medium,1,finance keyword: \bfinancial\b
+Willis Towers Watson Plc,,0,0,0,,,other_or_review,review,low,0,no rule match
+"Affiliated Managers Group, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+BPCE SA,,0,0,0,,,other_or_review,review,low,0,no rule match
+Bank of Montreal,,0,0,0,,,finance,review,medium,1,finance keyword: \bbank\b
+Boston Scientific Corp.,,0,0,0,,,other_or_review,review,low,0,no rule match
+"FTI Consulting, Inc.",,0,0,0,,,consulting,review,medium,1,consulting keyword: \bconsult
+Fiverr International Ltd.,,0,0,0,,,other_or_review,review,low,0,no rule match
+"Honeywell International, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+Jump Financial LLC,,0,0,0,,,finance,review,medium,1,finance keyword: \bfinancial\b
+"Kaiser Permanente, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+Sidley Austin LLP,,0,0,0,,,other_or_review,review,low,0,no rule match
+The Hearst Family Trust,,0,0,0,,,other_or_review,review,low,0,no rule match
+"The Vanguard Group, Inc.",,0,0,0,,,other_or_review,review,low,1,no rule match
+"Verkada, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+"Alvarez & Marsal, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+Berkeley Research Group LLC,,0,0,0,,,other_or_review,review,low,0,no rule match
+"C3.ai, Inc.",,0,0,0,,,tech,review,medium,1,tech keyword: \bai\b
+GE Aerospace,,0,0,0,,,other_or_review,review,low,0,no rule match
+LVMH Moët Hennessy Louis Vuitton SE,,0,0,0,,,other_or_review,review,low,0,no rule match
+Lincoln International LLC,,0,0,0,,,other_or_review,review,low,0,no rule match
+"Mitsubishi UFJ Financial Group, Inc.",,0,0,0,,,finance,review,medium,1,finance keyword: \bfinancial\b
+"MongoDB, Inc.",,0,0,0,,,other_or_review,review,low,1,no rule match
+Piper Sandler Cos.,,0,0,0,,,other_or_review,review,low,0,no rule match
+"Sumitomo Mitsui Financial Group, Inc.",,0,0,0,,,finance,review,medium,1,finance keyword: \bfinancial\b
+"AbbVie, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+"Advanced Micro Devices, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+"Applied Intuition, Inc.",,0,0,0,,,other_or_review,review,low,1,no rule match
+"Coinbase Global, Inc.",,0,0,0,,,other_or_review,review,low,1,no rule match
+"IQVIA Holdings, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+KeyCorp,,0,0,0,,,other_or_review,review,low,0,no rule match
+Latham & Watkins LLP,,0,0,0,,,other_or_review,review,low,0,no rule match
+MD Investment LLC,,0,0,0,,,finance,review,medium,1,finance keyword: \binvest
+Medtronic Plc,,0,0,0,,,other_or_review,review,low,0,no rule match
+"Prudential Financial, Inc.",,0,0,0,,,finance,review,medium,1,finance keyword: \bfinancial\b
+Schneider Electric SE,,0,0,0,,,other_or_review,review,low,0,no rule match
+"The Brattle Group, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+"The Mount Sinai Health System, Inc.",,0,0,0,,,exclude,review,high,0,exclude pattern: \bhealth\b
+The University of Colorado,,0,0,0,,,exclude,review,high,0,exclude pattern: \buniversity\b
+UCLA Health Systems,,0,0,0,,,exclude,review,high,0,exclude pattern: \bhealth\b
+United Nations (New York),,0,0,0,,,other_or_review,review,low,0,no rule match
+"ACS, Actividades de Construcción y Servicios SA",,0,0,0,,,other_or_review,review,low,0,no rule match
+AECOM,,0,0,0,,,other_or_review,review,low,0,no rule match
+"Baird Financial Group, Inc.",,0,0,0,,,finance,review,medium,1,finance keyword: \bfinancial\b
+"Cravath, Swaine & Moore LLP",,0,0,0,,,other_or_review,review,low,0,no rule match
+Fellowship of Catholic University Students,,0,0,0,,,exclude,review,high,0,exclude pattern: \buniversity\b
+Indiana University,,0,0,0,,,exclude,review,high,0,exclude pattern: \buniversity\b
+Informa Plc,,0,0,0,,,other_or_review,review,low,0,no rule match
+"Jones Lang LaSalle, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+"Mars, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+Mayo Clinic,,0,0,0,,,other_or_review,review,low,0,no rule match
+State of Michigan,,0,0,0,,,exclude,review,high,0,exclude pattern: \bstate of\b
+The New York Times Co.,,0,0,0,,,other_or_review,review,low,0,no rule match
+The University of Chicago Medical Center,,0,0,0,,,exclude,review,high,0,exclude pattern: \buniversity\b
+"Thermo Fisher Scientific, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+"Yext, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+Ann & Robert H. Lurie Children's Hospital of Chicago,,0,0,0,,,exclude,review,high,0,exclude pattern: \bhospital\b
+Arthur J. Gallagher & Co.,,0,0,0,,,other_or_review,review,low,0,no rule match
+Chicago Public Schools,,0,0,0,,,other_or_review,review,low,0,no rule match
+City & County of San Francisco (California),,0,0,0,,,other_or_review,review,low,0,no rule match
+Eastdil Secured LLC,,0,0,0,,,other_or_review,review,low,0,no rule match
+"Gartner, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+Government of Saudi Arabia,,0,0,0,,,exclude,review,high,0,exclude pattern: \bgovernment\b
+HSBC Holdings Plc,,0,0,0,,,other_or_review,review,low,0,no rule match
+"T. Rowe Price Group, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+Tencent Holdings Ltd.,,0,0,0,,,other_or_review,review,low,0,no rule match
+The State University of New York,,0,0,0,,,exclude,review,high,0,exclude pattern: \buniversity\b
+Yeshiva University,,0,0,0,,,exclude,review,high,0,exclude pattern: \buniversity\b
+BP Plc,,0,0,0,,,other_or_review,review,low,0,no rule match
+Brown University Health,,0,0,0,,,exclude,review,high,0,exclude pattern: \buniversity\b
+"Cadence Design Systems, Inc.",,0,0,0,,,tech,review,medium,1,tech keyword: \bsystems?\b
+Cleary Gottlieb Steen & Hamilton LLP,,0,0,0,,,other_or_review,review,low,0,no rule match
+"Figma, Inc.",,0,0,0,,,other_or_review,review,low,1,no rule match
+George Washington University,,0,0,0,,,exclude,review,high,0,exclude pattern: \buniversity\b
+"ICF International, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+Japan Exchange & Teaching Program,,0,0,0,,,other_or_review,review,low,0,no rule match
+New York Life Insurance Co.,,0,0,0,,,other_or_review,review,low,0,no rule match
+Old Mission Holdings LLC,,0,0,0,,,other_or_review,review,low,0,no rule match
+Proskauer Rose LLP,,0,0,0,,,other_or_review,review,low,0,no rule match
+Truist Financial Corp.,,0,0,0,,,finance,review,medium,1,finance keyword: \bfinancial\b
+"Walgreens Boots Alliance, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+"lululemon athletica, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+AllianceBernstein LP,,0,0,0,,,other_or_review,review,low,0,no rule match
+"Crisis Text Line, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+"Gap, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+"International Rescue Committee, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+"Morningstar, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+Roland Berger Holding Gmbh & Co. KGaA,,0,0,0,,,other_or_review,review,low,0,no rule match
+"Snowflake, Inc.",,0,0,0,,,other_or_review,review,low,1,no rule match
+"The MathWorks, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+The Rockefeller University,,0,0,0,,,exclude,review,high,0,exclude pattern: \buniversity\b
+The State of North Carolina,,0,0,0,,,exclude,review,high,0,exclude pattern: \bstate of\b
+Trinity Partners LLC,,0,0,0,,,finance,review,medium,1,finance keyword: \bpartners\b
+Unilever Plc,,0,0,0,,,other_or_review,review,low,0,no rule match
+Willkie Farr & Gallagher LLP,,0,0,0,,,other_or_review,review,low,0,no rule match
+Appian Corp.,,0,0,0,,,other_or_review,review,low,0,no rule match
+"Dell Technologies, Inc.",,0,0,0,,,tech,review,medium,1,tech keyword: \btechnolog
+"FactSet Research Systems, Inc.",,0,0,0,,,tech,review,medium,0,tech keyword: \bsystems?\b
+Michigan State University,,0,0,0,,,exclude,review,high,0,exclude pattern: \buniversity\b
+Mit Electrical Engineering & Computer Science Department,,0,0,0,,,other_or_review,review,low,0,no rule match
+"PayPal Holdings, Inc.",,0,0,0,,,other_or_review,review,low,1,no rule match
+"Regeneron Pharmaceuticals, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+SFS Holding Corp.,,0,0,0,,,other_or_review,review,low,0,no rule match
+Société Générale SA,,0,0,0,,,other_or_review,review,low,0,no rule match
+Thayer School of Engineering At Dartmouth,,0,0,0,,,exclude,review,high,0,exclude pattern: \bschool\b
+Trinity Health Corp.,,0,0,0,,,exclude,review,high,0,exclude pattern: \bhealth\b
+University of Minnesota,,0,0,0,,,exclude,review,high,0,exclude pattern: \buniversity\b
+"APHC, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+AstraZeneca PLC,,0,0,0,,,other_or_review,review,low,0,no rule match
+"BVH, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+Boston College,,0,0,0,,,exclude,review,high,0,exclude pattern: \bcollege\b
+"CBRE Group, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+"Hyundai Motor Co., Ltd.",,0,0,0,,,other_or_review,review,low,0,no rule match
+Imperial College London,,0,0,0,,,exclude,review,high,0,exclude pattern: \bcollege\b
+"Leidos Holdings, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+Pinault Francois Family,,0,0,0,,,other_or_review,review,low,0,no rule match
+Purdue University,,0,0,0,,,exclude,review,high,0,exclude pattern: \buniversity\b
+The Urban Institute,,0,0,0,,,exclude,review,high,0,exclude pattern: \binstitute\b
+United States Attorney's Office,,0,0,0,,,other_or_review,review,low,0,no rule match
+University of Arizona,,0,0,0,,,exclude,review,high,0,exclude pattern: \buniversity\b
+"University of California, Irvine",,0,0,0,,,exclude,review,high,0,exclude pattern: \buniversity\b
+"Upwork, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+Acumen LLC,,0,0,0,,,other_or_review,review,low,0,no rule match
+"Asana, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+"Beacon Health System, Inc.",,0,0,0,,,exclude,review,high,0,exclude pattern: \bhealth\b
+ByteDance Ltd. (Cayman Islands),,0,0,0,,,other_or_review,review,low,1,no rule match
+"CDM Smith, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+Cedars-Sinai Health System,,0,0,0,,,exclude,review,high,0,exclude pattern: \bhealth\b
+Chubb Ltd.,,0,0,0,,,other_or_review,review,low,0,no rule match
+"DaVita, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+Duke University School of Law,,0,0,0,,,exclude,review,high,0,exclude pattern: \buniversity\b
+"Equinox Holdings, Inc.",,0,0,0,,,other_or_review,review,low,0,no rule match
+"Expedia Group, Inc.",,0,0,0,,,other_or_review,review,low,1,no rule match

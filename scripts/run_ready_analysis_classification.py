@@ -12,17 +12,21 @@ import pandas as pd
 
 BASE = Path(r"C:\Users\knich\Projects\career-skill-gap-analysis-STAT5710")
 READY = BASE / "data" / "processed" / "ready_analysis"
-OUT_TABLES = BASE / "outputs" / "tables"
+OUT_TABLES = BASE / "outputs" / "tables" / "final"
+MODEL_DATA = BASE / "outputs" / "tables" / "modeling_data"
 OUT_FIG = BASE / "outputs" / "figures"
 
 FIRST_JOB = READY / "ready_first_job.csv"
 EDU = READY / "ready_revelio_edu_18_22.csv"
 PROFILES = READY / "ready_user_profiles.csv"
 SKILL_AGG = READY / "ready_user_skill_agg.csv"
-EMPLOYER_REVIEW = OUT_TABLES / "employer_target_review.csv"
+EMPLOYER_REVIEW = BASE / "outputs" / "tables" / "employer_review" / "reviewed_companies.csv"
 
 RANDOM_SEED = 5710
 TOP_SKILLS = 90
+PCA_SKILLS = 250
+PCA_COMPONENTS = 10
+KMEANS_CLUSTERS = 6
 TREE_MAX_DEPTH = 5
 FOREST_TREES = 35
 
@@ -56,6 +60,13 @@ def normalize_company(value: str) -> str:
 
 def normalize_decision(series: pd.Series) -> pd.Series:
     return series.astype(str).str.strip().replace({"nan": "", "1.0": "1", "0.0": "0"})
+
+
+def normalize_school_display(value: str) -> str:
+    value = str(value or "").strip()
+    if value == "Wharton School of Business at University of Pennsylvania":
+        return "University of Pennsylvania"
+    return value
 
 
 def sigmoid(z: np.ndarray) -> np.ndarray:
@@ -327,6 +338,61 @@ def render_grouped_bars(title: str, labels: list[str], first_values: list[float]
     write_text(out, "\n".join(parts))
 
 
+def render_stacked_percent_bars(title: str, labels: list[str], first_values: list[float], second_values: list[float], first_label: str, second_label: str, out: Path) -> None:
+    width = 1250
+    row_h = 32
+    top = 90
+    left = 430
+    right = 150
+    bottom = 55
+    height = top + bottom + row_h * len(labels)
+    plot_w = width - left - right
+    parts = [svg_header(width, height), f'<rect width="{width}" height="{height}" fill="{COLORS["bg"]}"/>']
+    parts.append(f'<text x="{width/2}" y="38" text-anchor="middle" font-size="24" font-weight="700" fill="{COLORS["ink"]}">{escape(title)}</text>')
+    parts.append(f'<rect x="{width-330}" y="58" width="16" height="16" fill="{COLORS["target"]}"/><text x="{width-308}" y="71" font-size="14" fill="{COLORS["ink"]}">{escape(first_label)}</text>')
+    parts.append(f'<rect x="{width-190}" y="58" width="16" height="16" fill="{COLORS["non_target"]}"/><text x="{width-168}" y="71" font-size="14" fill="{COLORS["ink"]}">{escape(second_label)}</text>')
+    for i, (label, first, second) in enumerate(zip(labels, first_values, second_values)):
+        y = top + i * row_h
+        first_w = plot_w * first
+        second_w = plot_w * second
+        parts.append(f'<text x="{left-12}" y="{y+21}" text-anchor="end" font-size="13" fill="{COLORS["ink"]}">{escape(label[:48])}</text>')
+        parts.append(f'<rect x="{left}" y="{y+6}" width="{first_w:.1f}" height="19" rx="4" fill="{COLORS["target"]}"/>')
+        parts.append(f'<rect x="{left+first_w:.1f}" y="{y+6}" width="{second_w:.1f}" height="19" rx="4" fill="{COLORS["non_target"]}"/>')
+        parts.append(f'<text x="{left+plot_w+8}" y="{y+21}" font-size="13" fill="{COLORS["ink"]}">{first:.1%}</text>')
+    parts.append("</svg>")
+    write_text(out, "\n".join(parts))
+
+
+def write_school_hypothesis_test(df: pd.DataFrame) -> None:
+    school_counts = df[df["school"].ne("Missing")].groupby("school").agg(users=("user_id", "size"), target_users=("target", "sum")).reset_index()
+    school_counts["non_target_users"] = school_counts["users"] - school_counts["target_users"]
+    school_counts["target_share"] = school_counts["target_users"] / school_counts["users"]
+    stable = school_counts[school_counts["users"] >= 30].copy()
+    obs = stable[["target_users", "non_target_users"]].to_numpy(dtype=float)
+    row_tot = obs.sum(axis=1, keepdims=True)
+    col_tot = obs.sum(axis=0, keepdims=True)
+    total = float(obs.sum())
+    expected = row_tot @ col_tot / total
+    chi_square = float(((obs - expected) ** 2 / expected).sum())
+    degrees_of_freedom = int((obs.shape[0] - 1) * (obs.shape[1] - 1))
+    # Wilson-Hilferty normal approximation to the chi-square upper-tail probability.
+    z = ((chi_square / degrees_of_freedom) ** (1 / 3) - (1 - 2 / (9 * degrees_of_freedom))) / math.sqrt(2 / (9 * degrees_of_freedom))
+    p_value = 0.5 * math.erfc(z / math.sqrt(2))
+    cramers_v = math.sqrt(chi_square / (total * min(obs.shape[0] - 1, obs.shape[1] - 1)))
+    stable = stable.sort_values(["target_share", "users"], ascending=[False, False])
+    stable.to_csv(OUT_TABLES / "ready_school_target_rate_stable_30plus.csv", index=False)
+    pd.DataFrame([{
+        "schools_in_test": int(len(stable)),
+        "users_in_test": int(total),
+        "min_school_size": 30,
+        "chi_square": chi_square,
+        "degrees_of_freedom": degrees_of_freedom,
+        "p_value_wilson_hilferty_approx": p_value,
+        "cramers_v": cramers_v,
+        "overall_target_rate_in_test": float(obs[:, 0].sum() / total),
+    }]).to_csv(OUT_TABLES / "ready_school_target_hypothesis_test.csv", index=False)
+
+
 def render_confusion(cm: pd.DataFrame, out: Path) -> None:
     width, height = 760, 620
     cell = 150
@@ -405,6 +471,44 @@ def render_word_cloud(title: str, freq: pd.Series, out: Path, color: str) -> Non
         opacity = 0.62 + 0.35 * (float(count) / max_count)
         label = str(word)[:32]
         parts.append(f'<text x="{x:.1f}" y="{y:.1f}" font-size="{size:.1f}" fill="{color}" fill-opacity="{opacity:.2f}" font-weight="700">{escape(label)}</text>')
+    parts.append("</svg>")
+    write_text(out, "\n".join(parts))
+
+
+def render_scatter(title: str, x: np.ndarray, y: np.ndarray, groups: np.ndarray, out: Path, x_label: str = "PC1", y_label: str = "PC2") -> None:
+    width, height = 900, 680
+    left, right, top, bottom = 90, 150, 80, 80
+    plot_w = width - left - right
+    plot_h = height - top - bottom
+    rng = np.random.default_rng(RANDOM_SEED)
+    if len(x) > 4500:
+        sample = rng.choice(len(x), size=4500, replace=False)
+        x, y, groups = x[sample], y[sample], groups[sample]
+    min_x, max_x = float(np.min(x)), float(np.max(x))
+    min_y, max_y = float(np.min(y)), float(np.max(y))
+    if abs(max_x - min_x) < 1e-9:
+        max_x += 1
+        min_x -= 1
+    if abs(max_y - min_y) < 1e-9:
+        max_y += 1
+        min_y -= 1
+    palette = [COLORS["blue"], COLORS["gold"], COLORS["target"], COLORS["non_target"], COLORS["purple"], COLORS["rose"], COLORS["slate"]]
+    parts = [svg_header(width, height), f'<rect width="{width}" height="{height}" fill="{COLORS["bg"]}"/>']
+    parts.append(f'<text x="{width/2}" y="38" text-anchor="middle" font-size="24" font-weight="700" fill="{COLORS["ink"]}">{escape(title)}</text>')
+    parts.append(f'<rect x="{left}" y="{top}" width="{plot_w}" height="{plot_h}" fill="#ffffff" stroke="{COLORS["grid"]}"/>')
+    for xi, yi, group in zip(x, y, groups):
+        px = left + (float(xi) - min_x) / (max_x - min_x) * plot_w
+        py = top + plot_h - (float(yi) - min_y) / (max_y - min_y) * plot_h
+        color = palette[int(group) % len(palette)]
+        parts.append(f'<circle cx="{px:.1f}" cy="{py:.1f}" r="2.1" fill="{color}" fill-opacity="0.38"/>')
+    parts.append(f'<text x="{left+plot_w/2}" y="{height-28}" text-anchor="middle" font-size="14" fill="{COLORS["ink"]}">{escape(x_label)}</text>')
+    parts.append(f'<text x="28" y="{top+plot_h/2}" text-anchor="middle" font-size="14" fill="{COLORS["ink"]}" transform="rotate(-90 28 {top+plot_h/2})">{escape(y_label)}</text>')
+    unique = sorted(set(int(g) for g in groups))
+    for i, group in enumerate(unique[:10]):
+        yy = top + 24 + i * 24
+        color = palette[group % len(palette)]
+        parts.append(f'<circle cx="{width-right+35}" cy="{yy}" r="6" fill="{color}"/>')
+        parts.append(f'<text x="{width-right+50}" y="{yy+5}" font-size="13" fill="{COLORS["ink"]}">Cluster {group}</text>')
     parts.append("</svg>")
     write_text(out, "\n".join(parts))
 
@@ -861,6 +965,24 @@ def build_eda_and_clouds(df: pd.DataFrame) -> None:
     top_schools.to_csv(OUT_TABLES / "ready_eda_top20_target_schools.csv", index=False)
     render_horizontal("Top 20 Target Schools", top_schools["school"].tolist(), top_schools["users"].tolist(), COLORS["blue"], OUT_FIG / "ready_eda_top20_target_schools.svg")
 
+    school_mix = df.groupby("school").agg(users=("user_id", "size"), target_users=("target", "sum")).reset_index()
+    school_mix = school_mix[school_mix["school"].ne("Missing")].copy()
+    school_mix["non_target_users"] = school_mix["users"] - school_mix["target_users"]
+    school_mix["target_share"] = school_mix["target_users"] / school_mix["users"]
+    school_mix["non_target_share"] = school_mix["non_target_users"] / school_mix["users"]
+    school_mix = school_mix.sort_values("users", ascending=False).head(25)
+    school_mix.to_csv(OUT_TABLES / "ready_eda_school_target_non_target_percentages.csv", index=False)
+    render_stacked_percent_bars(
+        "Target vs Non-Target Share by School",
+        school_mix["school"].tolist(),
+        school_mix["target_share"].tolist(),
+        school_mix["non_target_share"].tolist(),
+        "Target",
+        "Non-target",
+        OUT_FIG / "ready_eda_school_target_non_target_percentages.svg",
+    )
+    write_school_hypothesis_test(df)
+
     major_counts = df[df["target"] == 1]["major"].value_counts()
     major_pie = major_counts.head(8).rename_axis("major").reset_index(name="users")
     other = int(major_counts.iloc[8:].sum())
@@ -1042,8 +1164,207 @@ def build_yoy_outputs(df: pd.DataFrame) -> None:
     write_text(OUT_TABLES / "ready_yoy_2024_2025_report.md", "\n".join(report) + "\n")
 
 
+def select_descriptive_skills(skill_sets: list[set[str]], y: np.ndarray, top_n: int = PCA_SKILLS) -> pd.DataFrame:
+    counts: dict[str, list[int]] = {}
+    total_pos = int(y.sum())
+    total_neg = int(len(y) - total_pos)
+    for skills, target in zip(skill_sets, y):
+        for skill in skills:
+            counts.setdefault(skill, [0, 0])[int(target)] += 1
+    rows = []
+    for skill, (neg, pos) in counts.items():
+        users = neg + pos
+        if users < 25:
+            continue
+        log_odds = math.log((pos + 0.5) / (total_pos + 1)) - math.log((neg + 0.5) / (total_neg + 1))
+        rows.append((skill, users, pos, neg, log_odds, abs(log_odds)))
+    out = pd.DataFrame(rows, columns=["skill", "users", "target_users", "non_target_users", "log_odds_target", "abs_log_odds"])
+    return out.sort_values("abs_log_odds", ascending=False).head(top_n)
+
+
+def kmeans(x: np.ndarray, k: int = KMEANS_CLUSTERS, iterations: int = 80, seed: int = RANDOM_SEED) -> np.ndarray:
+    rng = np.random.default_rng(seed)
+    centers = x[rng.choice(len(x), size=k, replace=False)].copy()
+    labels = np.zeros(len(x), dtype=int)
+    for _ in range(iterations):
+        dist = ((x[:, None, :] - centers[None, :, :]) ** 2).sum(axis=2)
+        new_labels = dist.argmin(axis=1)
+        if np.array_equal(labels, new_labels):
+            break
+        labels = new_labels
+        for j in range(k):
+            mask = labels == j
+            if mask.any():
+                centers[j] = x[mask].mean(axis=0)
+    return labels
+
+
+def compute_inertia(x: np.ndarray, labels: np.ndarray, k: int) -> float:
+    inertia = 0.0
+    for cluster in range(k):
+        mask = labels == cluster
+        if not mask.any():
+            continue
+        center = x[mask].mean(axis=0)
+        inertia += float(((x[mask] - center) ** 2).sum())
+    return inertia
+
+
+def kmeans_with_inertia(x: np.ndarray, k: int, iterations: int = 80, starts: int = 8) -> tuple[np.ndarray, float]:
+    best_labels = None
+    best_inertia = float("inf")
+    for start in range(starts):
+        labels = kmeans(x, k=k, iterations=iterations, seed=RANDOM_SEED + 997 * start + k)
+        inertia = compute_inertia(x, labels, k)
+        if inertia < best_inertia:
+            best_labels = labels
+            best_inertia = inertia
+    assert best_labels is not None
+    return best_labels, best_inertia
+
+
+def build_skill_pca_kmeans_outputs(df: pd.DataFrame) -> None:
+    skill_sets = df["skill_set"].tolist()
+    y = df["target"].to_numpy(dtype=int)
+    selected = select_descriptive_skills(skill_sets, y, top_n=PCA_SKILLS)
+    selected.to_csv(OUT_TABLES / "ready_skill_pca_selected_skills.csv", index=False)
+    skills = selected["skill"].tolist()
+    x = make_skill_matrix(skill_sets, skills)
+    mean = x.mean(axis=0)
+    std = x.std(axis=0)
+    std = np.where(std < 1e-8, 1.0, std)
+    z = (x - mean) / std
+    _, s, vt = np.linalg.svd(z, full_matrices=False)
+    components = z @ vt[:PCA_COMPONENTS].T
+    variance = (s ** 2) / max(1, len(z) - 1)
+    explained = variance / variance.sum()
+    pd.DataFrame({
+        "component": [f"PC{i+1}" for i in range(PCA_COMPONENTS)],
+        "explained_variance_ratio": explained[:PCA_COMPONENTS],
+    }).to_csv(OUT_TABLES / "ready_skill_pca_explained_variance.csv", index=False)
+    loadings = pd.DataFrame(vt[:PCA_COMPONENTS].T, columns=[f"PC{i+1}" for i in range(PCA_COMPONENTS)])
+    loadings.insert(0, "skill", skills)
+    loadings.to_csv(OUT_TABLES / "ready_skill_pca_loadings.csv", index=False)
+    scores = pd.DataFrame({
+        "user_id": df["user_id"].to_numpy(),
+        "target": y,
+        "PC1": components[:, 0],
+        "PC2": components[:, 1],
+    })
+    scores.to_csv(OUT_TABLES / "ready_skill_pca_scores.csv", index=False)
+    render_scatter(
+        "Skill PCA: Target vs Non-Target",
+        components[:, 0],
+        components[:, 1],
+        y,
+        OUT_FIG / "ready_skill_pca_target_vs_non_target.svg",
+        f"PC1 ({explained[0]:.1%})",
+        f"PC2 ({explained[1]:.1%})",
+    )
+
+    elbow_rows = []
+    for k in range(2, 11):
+        _, inertia = kmeans_with_inertia(components[:, :PCA_COMPONENTS], k=k)
+        elbow_rows.append({"k": k, "inertia": inertia})
+    elbow = pd.DataFrame(elbow_rows)
+    elbow["inertia_pct_of_k2"] = elbow["inertia"] / float(elbow.iloc[0]["inertia"])
+    elbow["inertia_drop_from_previous"] = elbow["inertia"].shift(1) - elbow["inertia"]
+    elbow.to_csv(OUT_TABLES / "ready_skill_kmeans_elbow.csv", index=False)
+    render_vertical(
+        "K-Means Elbow: Skill PCA Components",
+        elbow["k"].astype(str).tolist(),
+        elbow["inertia_pct_of_k2"].tolist(),
+        [COLORS["blue"]] * len(elbow),
+        OUT_FIG / "ready_skill_kmeans_elbow.svg",
+        max_y=1.0,
+        fmt="pct",
+    )
+
+    labels, _ = kmeans_with_inertia(components[:, :PCA_COMPONENTS], k=KMEANS_CLUSTERS)
+    df = df.copy()
+    df["skill_cluster"] = labels
+    scores["skill_cluster"] = labels
+    scores.to_csv(OUT_TABLES / "ready_skill_pca_scores.csv", index=False)
+    cluster_rows = []
+    skill_rows = []
+    for cluster in sorted(df["skill_cluster"].unique()):
+        subset = df[df["skill_cluster"] == cluster]
+        freq: dict[str, int] = {}
+        for skills_i in subset["skill_set"]:
+            for skill in skills_i:
+                freq[skill] = freq.get(skill, 0) + 1
+        top_skills = pd.Series(freq).sort_values(ascending=False).head(8)
+        top_majors = subset["major"].value_counts().head(5)
+        top_schools = subset["school"].value_counts().head(5)
+        cluster_rows.append({
+            "cluster": int(cluster),
+            "users": int(len(subset)),
+            "target_users": int(subset["target"].sum()),
+            "target_rate": float(subset["target"].mean()),
+            "avg_n_skills": float(subset["n_skills"].mean()),
+            "top_skills": "; ".join(top_skills.index.astype(str).tolist()),
+            "top_majors": "; ".join(top_majors.index.astype(str).tolist()),
+            "top_schools": "; ".join(top_schools.index.astype(str).tolist()),
+        })
+        for skill, count in top_skills.items():
+            skill_rows.append({"cluster": int(cluster), "skill": skill, "users": int(count), "share": float(count / len(subset))})
+    cluster_profile = pd.DataFrame(cluster_rows).sort_values("target_rate", ascending=False)
+    cluster_profile.to_csv(OUT_TABLES / "ready_skill_cluster_profiles.csv", index=False)
+    pd.DataFrame(skill_rows).to_csv(OUT_TABLES / "ready_skill_cluster_top_skills.csv", index=False)
+    render_scatter(
+        "Skill Clusters in PCA Space",
+        components[:, 0],
+        components[:, 1],
+        labels,
+        OUT_FIG / "ready_skill_clusters_in_pca_space.svg",
+        f"PC1 ({explained[0]:.1%})",
+        f"PC2 ({explained[1]:.1%})",
+    )
+    render_horizontal(
+        "Target Rate by Skill Cluster",
+        [f"Cluster {int(c)}" for c in cluster_profile["cluster"]],
+        cluster_profile["target_rate"].tolist(),
+        COLORS["purple"],
+        OUT_FIG / "ready_skill_cluster_target_rates.svg",
+        fmt="pct",
+    )
+
+
+def build_yoy_skill_shift_outputs(df: pd.DataFrame) -> None:
+    yoy = df[(df["entry_job_year"].isin([2024, 2025])) & (df["target"] == 1)].copy()
+    rows = []
+    totals = yoy.groupby("entry_job_year")["user_id"].size().to_dict()
+    skill_counts: dict[tuple[int, str], int] = {}
+    for year, skills in zip(yoy["entry_job_year"], yoy["skill_set"]):
+        for skill in skills:
+            skill_counts[(int(year), skill)] = skill_counts.get((int(year), skill), 0) + 1
+    all_skills = sorted({skill for _, skill in skill_counts})
+    for skill in all_skills:
+        c2024 = skill_counts.get((2024, skill), 0)
+        c2025 = skill_counts.get((2025, skill), 0)
+        if c2024 + c2025 < 25:
+            continue
+        s2024 = c2024 / max(1, int(totals.get(2024, 0)))
+        s2025 = c2025 / max(1, int(totals.get(2025, 0)))
+        rows.append({"skill": skill, "users_2024": c2024, "users_2025": c2025, "share_2024": s2024, "share_2025": s2025, "share_change_2025_minus_2024": s2025 - s2024})
+    shift = pd.DataFrame(rows).sort_values("share_change_2025_minus_2024", ascending=False)
+    shift.to_csv(OUT_TABLES / "ready_yoy_2024_2025_target_skill_shift.csv", index=False)
+    top = pd.concat([shift.head(8), shift.tail(8)]).drop_duplicates("skill")
+    render_grouped_bars(
+        "Target Skill Shares: 2024 vs 2025",
+        top["skill"].tolist(),
+        top["share_2024"].tolist(),
+        top["share_2025"].tolist(),
+        "2024",
+        "2025",
+        OUT_FIG / "ready_yoy_target_skill_shares_2024_2025.svg",
+        fmt="pct",
+    )
+
+
 def main() -> None:
     OUT_TABLES.mkdir(parents=True, exist_ok=True)
+    MODEL_DATA.mkdir(parents=True, exist_ok=True)
     OUT_FIG.mkdir(parents=True, exist_ok=True)
 
     first_job = pd.read_csv(FIRST_JOB)
@@ -1073,17 +1394,20 @@ def main() -> None:
     df = df.merge(skills, on="user_id", how="left")
     for col in ["school", "major", "degree", "university_country", "user_country"]:
         df[col] = clean_series(df[col])
+    df["school"] = df["school"].map(normalize_school_display)
     df["prestige"] = pd.to_numeric(df["prestige"], errors="coerce")
     df["numconnections"] = pd.to_numeric(df["numconnections"], errors="coerce")
     df["n_skills"] = pd.to_numeric(df["n_skills"], errors="coerce").fillna(0)
     df["skill_text"] = df["skill_text"].fillna("")
     df["skill_set"] = df["skill_text"].map(split_skills)
 
-    df.drop(columns=["skill_set"]).to_csv(OUT_TABLES / "ready_modeling_dataset_all_reviewed_seniority_1_2.csv", index=False)
+    df.drop(columns=["skill_set"]).to_csv(MODEL_DATA / "ready_modeling_dataset_all_reviewed_seniority_1_2.csv", index=False)
     analysis_df = df[df["seniority_num"] == 2].copy()
-    analysis_df.drop(columns=["skill_set"]).to_csv(OUT_TABLES / "ready_modeling_dataset.csv", index=False)
+    analysis_df.drop(columns=["skill_set"]).to_csv(MODEL_DATA / "ready_modeling_dataset.csv", index=False)
     build_eda_and_clouds(analysis_df)
     build_yoy_outputs(analysis_df)
+    build_yoy_skill_shift_outputs(analysis_df)
+    build_skill_pca_kmeans_outputs(analysis_df)
     build_model_and_outputs(analysis_df)
     build_seniority_sensitivity_outputs(df)
     print("Wrote ready-analysis classification, EDA charts, skill word clouds, and seniority sensitivity checks.")

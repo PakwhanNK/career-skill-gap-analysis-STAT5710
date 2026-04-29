@@ -10,15 +10,15 @@
 <text x="418" y="169" text-anchor="end" font-size="13" fill="#1f2937">Cornell University</text>
 <rect x="430" y="155" width="448.2" height="18" rx="5" fill="#2b6cb0"/>
 <text x="886.2" y="169" font-size="13" fill="#1f2937">940</text>
-<text x="418" y="199" text-anchor="end" font-size="13" fill="#1f2937">Columbia University in the City of New York</text>
-<rect x="430" y="185" width="260.8" height="18" rx="5" fill="#2b6cb0"/>
-<text x="698.8" y="199" font-size="13" fill="#1f2937">547</text>
-<text x="418" y="229" text-anchor="end" font-size="13" fill="#1f2937">Duke University</text>
-<rect x="430" y="215" width="216.9" height="18" rx="5" fill="#2b6cb0"/>
-<text x="654.9" y="229" font-size="13" fill="#1f2937">455</text>
-<text x="418" y="259" text-anchor="end" font-size="13" fill="#1f2937">University of Pennsylvania</text>
-<rect x="430" y="245" width="211.7" height="18" rx="5" fill="#2b6cb0"/>
-<text x="649.7" y="259" font-size="13" fill="#1f2937">444</text>
+<text x="418" y="199" text-anchor="end" font-size="13" fill="#1f2937">University of Pennsylvania</text>
+<rect x="430" y="185" width="359.0" height="18" rx="5" fill="#2b6cb0"/>
+<text x="797.0" y="199" font-size="13" fill="#1f2937">753</text>
+<text x="418" y="229" text-anchor="end" font-size="13" fill="#1f2937">Columbia University in the City of New York</text>
+<rect x="430" y="215" width="260.8" height="18" rx="5" fill="#2b6cb0"/>
+<text x="698.8" y="229" font-size="13" fill="#1f2937">547</text>
+<text x="418" y="259" text-anchor="end" font-size="13" fill="#1f2937">Duke University</text>
+<rect x="430" y="245" width="216.9" height="18" rx="5" fill="#2b6cb0"/>
+<text x="654.9" y="259" font-size="13" fill="#1f2937">455</text>
 <text x="418" y="289" text-anchor="end" font-size="13" fill="#1f2937">University of Notre Dame</text>
 <rect x="430" y="275" width="199.3" height="18" rx="5" fill="#2b6cb0"/>
 <text x="637.3" y="289" font-size="13" fill="#1f2937">418</text>
@@ -40,25 +40,25 @@
 <text x="418" y="469" text-anchor="end" font-size="13" fill="#1f2937">Washington University in St. Louis</text>
 <rect x="430" y="455" width="150.2" height="18" rx="5" fill="#2b6cb0"/>
 <text x="588.2" y="469" font-size="13" fill="#1f2937">315</text>
-<text x="418" y="499" text-anchor="end" font-size="13" fill="#1f2937">Wharton School of Business at University of Pennsylvania</text>
-<rect x="430" y="485" width="147.3" height="18" rx="5" fill="#2b6cb0"/>
-<text x="585.3" y="499" font-size="13" fill="#1f2937">309</text>
-<text x="418" y="529" text-anchor="end" font-size="13" fill="#1f2937">Stanford University</text>
-<rect x="430" y="515" width="141.1" height="18" rx="5" fill="#2b6cb0"/>
-<text x="579.1" y="529" font-size="13" fill="#1f2937">296</text>
-<text x="418" y="559" text-anchor="end" font-size="13" fill="#1f2937">Harvard University</text>
-<rect x="430" y="545" width="136.4" height="18" rx="5" fill="#2b6cb0"/>
-<text x="574.4" y="559" font-size="13" fill="#1f2937">286</text>
-<text x="418" y="589" text-anchor="end" font-size="13" fill="#1f2937">Princeton University</text>
-<rect x="430" y="575" width="127.3" height="18" rx="5" fill="#2b6cb0"/>
-<text x="565.3" y="589" font-size="13" fill="#1f2937">267</text>
-<text x="418" y="619" text-anchor="end" font-size="13" fill="#1f2937">Yale University</text>
-<rect x="430" y="605" width="123.5" height="18" rx="5" fill="#2b6cb0"/>
-<text x="561.5" y="619" font-size="13" fill="#1f2937">259</text>
-<text x="418" y="649" text-anchor="end" font-size="13" fill="#1f2937">Dartmouth College</text>
-<rect x="430" y="635" width="116.3" height="18" rx="5" fill="#2b6cb0"/>
-<text x="554.3" y="649" font-size="13" fill="#1f2937">244</text>
-<text x="418" y="679" text-anchor="end" font-size="13" fill="#1f2937">Rice University</text>
-<rect x="430" y="665" width="109.7" height="18" rx="5" fill="#2b6cb0"/>
-<text x="547.7" y="679" font-size="13" fill="#1f2937">230</text>
+<text x="418" y="499" text-anchor="end" font-size="13" fill="#1f2937">Stanford University</text>
+<rect x="430" y="485" width="141.1" height="18" rx="5" fill="#2b6cb0"/>
+<text x="579.1" y="499" font-size="13" fill="#1f2937">296</text>
+<text x="418" y="529" text-anchor="end" font-size="13" fill="#1f2937">Harvard University</text>
+<rect x="430" y="515" width="136.4" height="18" rx="5" fill="#2b6cb0"/>
+<text x="574.4" y="529" font-size="13" fill="#1f2937">286</text>
+<text x="418" y="559" text-anchor="end" font-size="13" fill="#1f2937">Princeton University</text>
+<rect x="430" y="545" width="127.3" height="18" rx="5" fill="#2b6cb0"/>
+<text x="565.3" y="559" font-size="13" fill="#1f2937">267</text>
+<text x="418" y="589" text-anchor="end" font-size="13" fill="#1f2937">Yale University</text>
+<rect x="430" y="575" width="123.5" height="18" rx="5" fill="#2b6cb0"/>
+<text x="561.5" y="589" font-size="13" fill="#1f2937">259</text>
+<text x="418" y="619" text-anchor="end" font-size="13" fill="#1f2937">Dartmouth College</text>
+<rect x="430" y="605" width="116.3" height="18" rx="5" fill="#2b6cb0"/>
+<text x="554.3" y="619" font-size="13" fill="#1f2937">244</text>
+<text x="418" y="649" text-anchor="end" font-size="13" fill="#1f2937">Rice University</text>
+<rect x="430" y="635" width="109.7" height="18" rx="5" fill="#2b6cb0"/>
+<text x="547.7" y="649" font-size="13" fill="#1f2937">230</text>
+<text x="418" y="679" text-anchor="end" font-size="13" fill="#1f2937">Johns Hopkins University</text>
+<rect x="430" y="665" width="54.4" height="18" rx="5" fill="#2b6cb0"/>
+<text x="492.4" y="679" font-size="13" fill="#1f2937">114</text>
 </svg>

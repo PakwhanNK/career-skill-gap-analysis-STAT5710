@@ -29,6 +29,7 @@ top_company_prediction/
 outputs/*.parquet
 outputs/models/
 outputs/tables/features_*_sample.csv
+outputs/tables/modeling_data/
 
 # Jupyter notebook checkpoints
 .ipynb_checkpoints/

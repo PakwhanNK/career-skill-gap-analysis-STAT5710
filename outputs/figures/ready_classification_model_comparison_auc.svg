@@ -13,13 +13,13 @@
 <text x="70" y="396.0" text-anchor="end" font-size="12" fill="#1f2937">0.2</text>
 <line x1="80" y1="470.0" x2="860" y2="470.0" stroke="#e5ded2" stroke-width="1"/>
 <text x="70" y="474.0" text-anchor="end" font-size="12" fill="#1f2937">0.0</text>
-<rect x="138.5" y="175.4" width="143.0" height="294.6" rx="6" fill="#6b46c1"/>
-<text x="210.0" y="167.4" text-anchor="middle" font-size="14" fill="#1f2937">0.755</text>
+<rect x="138.5" y="175.0" width="143.0" height="295.0" rx="6" fill="#6b46c1"/>
+<text x="210.0" y="167.0" text-anchor="middle" font-size="14" fill="#1f2937">0.756</text>
 <text x="210.0" y="520" text-anchor="middle" font-size="14" fill="#1f2937">Logistic regression</text>
 <rect x="398.5" y="196.6" width="143.0" height="273.4" rx="6" fill="#2b6cb0"/>
 <text x="470.0" y="188.6" text-anchor="middle" font-size="14" fill="#1f2937">0.701</text>
 <text x="470.0" y="520" text-anchor="middle" font-size="14" fill="#1f2937">Decision tree</text>
-<rect x="658.5" y="184.6" width="143.0" height="285.4" rx="6" fill="#0f766e"/>
-<text x="730.0" y="176.6" text-anchor="middle" font-size="14" fill="#1f2937">0.732</text>
+<rect x="658.5" y="183.8" width="143.0" height="286.2" rx="6" fill="#0f766e"/>
+<text x="730.0" y="175.8" text-anchor="middle" font-size="14" fill="#1f2937">0.734</text>
 <text x="730.0" y="520" text-anchor="middle" font-size="14" fill="#1f2937">Random forest</text>
 </svg>

@@ -26,8 +26,8 @@
 <rect x="430" y="305" width="5.0" height="18" rx="5" fill="#2f855a"/>
 <text x="443.0" y="319" font-size="13" fill="#1f2937">0.003</text>
 <text x="418" y="349" text-anchor="end" font-size="13" fill="#1f2937">school_te</text>
-<rect x="430" y="335" width="2.1" height="18" rx="5" fill="#2f855a"/>
-<text x="440.1" y="349" font-size="13" fill="#1f2937">0.001</text>
+<rect x="430" y="335" width="1.8" height="18" rx="5" fill="#2f855a"/>
+<text x="439.8" y="349" font-size="13" fill="#1f2937">0.001</text>
 <text x="418" y="379" text-anchor="end" font-size="13" fill="#1f2937">n_skills</text>
 <rect x="430" y="365" width="0.2" height="18" rx="5" fill="#2f855a"/>
 <text x="438.2" y="379" font-size="13" fill="#1f2937">0.000</text>

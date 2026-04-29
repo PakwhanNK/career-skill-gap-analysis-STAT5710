@@ -12,7 +12,7 @@ PROCESSED_POSITIONS = BASE / "data" / "processed" / "t20_all_positions.csv"
 POPULAR_COMPANIES = BASE / "outputs" / "tables" / "popular_company_list_from_data_xlsx.csv"
 TOP_FIRST_JOB = BASE / "outputs" / "tables" / "eda_top_first_job_employers_with_excel_label.csv"
 OUT_DIR = BASE / "outputs" / "tables"
-OUT_FILE = OUT_DIR / "employer_target_review.csv"
+OUT_FILE = OUT_DIR / "employer_review" / "reviewed_companies_seed.csv"
 
 
 TARGET_EXACT = {
@@ -131,6 +131,7 @@ def read_csv(path: Path) -> list[dict[str, str]]:
 
 
 def main() -> None:
+    OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
     raw_rows = read_csv(RAW_POSITIONS)

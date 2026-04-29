@@ -10,7 +10,7 @@ import pandas as pd
 
 BASE = Path(r"C:\Users\knich\Projects\career-skill-gap-analysis-STAT5710")
 COHORT = BASE / "outputs" / "tables" / "reconstructed_first_job_scope_sample.csv"
-OUT_TABLES = BASE / "outputs" / "tables"
+OUT_TABLES = BASE / "outputs" / "tables" / "archive" / "reviewed_legacy"
 OUT_FIG = BASE / "outputs" / "figures"
 
 COLORS = {

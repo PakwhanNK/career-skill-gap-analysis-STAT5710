@@ -1,0 +1,18 @@
+{
+  "rows": 15999,
+  "target_rows": 9641,
+  "non_target_rows": 6358,
+  "train_rows": 12799,
+  "test_rows": 3200,
+  "test_auc": 0.7564234615986847,
+  "test_accuracy": 0.74125,
+  "test_precision": 0.7184273232724384,
+  "test_recall": 0.9382780082987552,
+  "non_skill_test_auc": 0.6915246026775229,
+  "non_skill_test_accuracy": 0.67375,
+  "non_skill_test_precision": 0.6959219858156028,
+  "non_skill_test_recall": 0.8143153526970954,
+  "top_skill_features": 90,
+  "model_type": "custom_target_encoded_logistic_regression_with_skill_indicators_no_seniority",
+  "scope": "reviewed employers, seniority level 2 only"
+}

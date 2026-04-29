@@ -1,0 +1,201 @@
+employer_name,users,top_major,top_school,cum_share_of_nonmissing_unreviewed,suggested_bucket,confidence,notes,manual_decision
+Dataannotation Tech,34,Engineering,University of Michigan,0.007830493,other_or_review,low,no rule match,0
+"Merck & Co., Inc.",33,Engineering,Cornell University,0.015430677107323813,other_or_review,high,exact mapping,0
+"Huron Consulting Group, Inc.",32,Missing,Dartmouth College,0.022800553,consulting,high,exact mapping,1
+Johnson & Johnson,32,Engineering,Cornell University,0.030170428374021188,other_or_review,high,exact mapping,0
+"Mizuho Financial Group, Inc.",32,Economics,Northwestern University,0.037540304,finance,high,exact mapping,1
+Stealth Startup,32,Engineering,University of California Berkeley,0.04491018,other_or_review,high,exact mapping,0
+Texas Instruments Incorporated,32,Engineering,University of Michigan,0.052280055,tech,high,exact mapping,1
+University of Cambridge,32,Missing,University of California Berkeley,0.059649931,exclude,high,exact mapping,0
+ASML Holding NV,31,Engineering,Cornell University,0.066789498,tech,high,exact mapping,1
+Davis Polk & Wardwell LLP,31,Missing,University of Pennsylvania,0.073929065,other_or_review,high,exact mapping,0
+Government of Singapore,31,Engineering,University of California Berkeley,0.081068632,exclude,high,exact mapping,0
+Moelis & Co.,31,Economics,Northwestern University,0.088208199,finance,high,exact mapping,1
+Perella Weinberg Partners,31,Economics,Wharton School of Business at University of Pennsylvania,0.095347766,finance,high,exact mapping,1
+The Toronto-Dominion Bank,31,Economics,University of Pennsylvania,0.10248733302625518,finance,medium,finance keyword: \bbank\b,1
+"United Airlines Holdings, Inc.",31,Engineering,Northwestern University,0.10962690004606172,other_or_review,high,exact mapping,0
+Aon Plc,30,Missing,University of Michigan,0.11653615845232612,consulting,high,exact mapping,1
+Boston University,30,Missing,University of Michigan,0.1234454168585905,exclude,high,exact mapping,0
+Eli Lilly & Co.,30,Engineering,University of Notre Dame,0.13035467526485492,other_or_review,low,no rule match,0
+HRT Capital LLC,30,Engineering,Massachusetts Institute of Technology,0.1372639336711193,finance,medium,finance keyword: \bcapital\b,1
+McMaster-Carr Supply Co.,30,Engineering,University of Chicago,0.1441731920773837,other_or_review,high,exact mapping,0
+"Scale AI, Inc.",30,Engineering,University of California Berkeley,0.1510824504836481,tech,high,exact mapping,1
+Bridgewater Associates Holdings LLC,29,Missing,Yale University,0.15776140027637034,other_or_review,low,no rule match,1
+"Dana-Farber Cancer Institute, Inc.",29,Missing,University of California Berkeley,0.16444035006909258,exclude,high,exclude pattern: \binstitute\b,0
+"Raymond James Financial, Inc.",29,Economics,Wharton School of Business at University of Pennsylvania,0.17111929986181484,finance,medium,finance keyword: \bfinancial\b,1
+Ares Management Corp.,28,Missing,Duke University,0.17756794104099494,other_or_review,low,no rule match,0
+"Beth Israel Lahey Health, Inc.",28,Missing,Brown University,0.18401658222017503,exclude,high,exclude pattern: \bhealth\b,0
+"IXL Learning, Inc.",28,Engineering,University of California Berkeley,0.19046522339935515,other_or_review,low,no rule match,0
+"National Football League, Inc.",28,Missing,Vanderbilt University,0.19691386457853524,other_or_review,low,no rule match,0
+"Pinterest, Inc.",28,Engineering,University of California Berkeley,0.20336250575771533,other_or_review,low,no rule match,0
+Sullivan & Cromwell LLP,28,Missing,Columbia University in the City of New York,0.20981114693689543,other_or_review,low,no rule match,0
+"The Broad Institute, Inc.",28,Engineering,Harvard University,0.21625978811607555,exclude,high,exclude pattern: \binstitute\b,0
+University of Illinois At Urbana–Champaign,28,Engineering,University of Michigan,0.22270842929525564,exclude,high,exclude pattern: \buniversity\b,0
+Bain Capital Holdings LP,27,Missing,Wharton School of Business at University of Pennsylvania,0.22892676186089359,finance,medium,finance keyword: \bcapital\b,1
+Beaumont Health,27,Missing,University of Michigan,0.23514509442653156,exclude,high,exclude pattern: \bhealth\b,0
+Five Rings LLC,27,Engineering,Massachusetts Institute of Technology,0.2413634269921695,other_or_review,low,no rule match,1
+"Macy's, Inc.",27,Missing,University of Michigan,0.24758175955780745,other_or_review,low,no rule match,0
+Moody's Corp.,27,Engineering,Columbia University in the City of New York,0.2538000921234454,other_or_review,low,no rule match,0
+Ove Arup Partnership Charitable Trust,27,Engineering,Cornell University,0.26001842468908337,other_or_review,low,no rule match,0
+"QUALCOMM, Inc.",27,Engineering,University of California Berkeley,0.26623675725472135,other_or_review,low,no rule match,0
+"Success Academy Charter Schools, Inc.",27,Missing,Columbia University in the City of New York,0.27245508982035926,other_or_review,low,no rule match,0
+The Bank of New York Mellon Corp.,27,Engineering,Columbia University in the City of New York,0.27867342238599724,finance,medium,finance keyword: \bbank\b,1
+"ZS Associates, Inc.",27,Economics,University of Pennsylvania,0.2848917549516352,other_or_review,low,no rule match,0
+"Analysis Group, Inc. (Massachusetts)",26,Economics,Washington University in St. Louis,0.290879779,other_or_review,low,no rule match,0
+Baylor College of Medicine,26,Missing,Rice University,0.2968678028558268,exclude,high,exclude pattern: \bcollege\b,0
+Booz Allen Hamilton Holding Corp.,26,Engineering,University of Notre Dame,0.3028558268079226,other_or_review,low,no rule match,0
+"DraftKings, Inc.",26,Engineering,University of Michigan,0.3088438507600184,other_or_review,low,no rule match,0
+Government of China,26,Missing,University of Michigan,0.3148318747121142,exclude,high,exclude pattern: \bgovernment\b,0
+Macquarie Group Ltd.,26,Economics,Wharton School of Business at University of Pennsylvania,0.32081989866421007,other_or_review,low,no rule match,0
+"Philadelphia Trading, Inc.",26,Engineering,Cornell University,0.32680792261630587,quant,medium,quant keyword: \btrading\b,1
+Rothschild & Co. SCA,26,Economics,University of Chicago,0.33279594656840167,other_or_review,low,no rule match,0
+Scully Royalty Ltd.,26,Missing,Vanderbilt University,0.33878397052049747,other_or_review,low,no rule match,0
+The Northwestern Mutual Life Insurance Co.,26,Missing,University of Notre Dame,0.34477199447259327,other_or_review,low,no rule match,0
+"Burns & McDonnell, Inc.",25,Engineering,Washington University in St. Louis,0.35052970981114695,other_or_review,low,no rule match,0
+L'Oréal SA,25,Missing,Cornell University,0.3562874251497006,other_or_review,low,no rule match,0
+"Northwell Health, Inc.",25,Missing,Columbia University in the City of New York,0.36204514048825426,exclude,high,exclude pattern: \bhealth\b,0
+"Skadden, Arps, Slate, Meagher & Flom LLP",25,Missing,Cornell University,0.36780285582680794,other_or_review,high,exact mapping,0
+Sony Group Corp.,25,Missing,University of California Berkeley,0.37356057116536157,other_or_review,low,no rule match,0
+Stryker Corp.,25,Engineering,University of Michigan,0.37931828650391525,other_or_review,low,no rule match,0
+University of Illinois,25,Missing,University of Michigan,0.38507600184246893,exclude,high,exclude pattern: \buniversity\b,0
+University of Maryland,25,Missing,Columbia University in the City of New York,0.39083371718102256,exclude,high,exclude pattern: \buniversity\b,0
+WPP Plc,25,Missing,Northwestern University,0.39659143251957624,other_or_review,low,no rule match,0
+"Warner Bros. Discovery, Inc.",25,Missing,Columbia University in the City of New York,0.4023491478581299,other_or_review,low,no rule match,0
+Altman Solon GmbH & Co. KG,24,Economics,Dartmouth College,0.4078765545831414,other_or_review,low,no rule match,0
+"City Year, Inc.",24,Missing,University of California Berkeley,0.41340396130815293,other_or_review,low,no rule match,0
+InterSystems Corp.,24,Engineering,Brown University,0.41893136803316444,other_or_review,low,no rule match,0
+Kobre & Kim LLP,24,Missing,Columbia University in the City of New York,0.42445877475817595,other_or_review,low,no rule match,0
+"L3Harris Technologies, Inc.",24,Engineering,Cornell University,0.42998618148318746,tech,medium,tech keyword: \btechnolog,1
+Stifel Financial Corp.,24,Economics,Brown University,0.43551358820819897,finance,medium,finance keyword: \bfinancial\b,1
+Willis Towers Watson Plc,24,Missing,Cornell University,0.44104099493321053,other_or_review,low,no rule match,0
+"Affiliated Managers Group, Inc.",23,Economics,Columbia University in the City of New York,0.44633809304467986,other_or_review,low,no rule match,0
+BPCE SA,23,Economics,Brown University,0.45163519115614925,other_or_review,low,no rule match,0
+Bank of Montreal,23,Business,University of Notre Dame,0.4569322892676186,finance,medium,finance keyword: \bbank\b,1
+Boston Scientific Corp.,23,Engineering,University of Michigan,0.462229387,other_or_review,low,no rule match,0
+"FTI Consulting, Inc.",23,Economics,University of Chicago,0.46752648549055736,consulting,medium,consulting keyword: \bconsult,1
+Fiverr International Ltd.,23,Business,Harvard University,0.4728235836020267,other_or_review,low,no rule match,0
+"Honeywell International, Inc.",23,Engineering,University of Michigan,0.4781206817134961,other_or_review,low,no rule match,0
+Jump Financial LLC,23,Engineering,Massachusetts Institute of Technology,0.4834177798249655,finance,medium,finance keyword: \bfinancial\b,1
+"Kaiser Permanente, Inc.",23,Missing,University of California Berkeley,0.4887148779364348,other_or_review,low,no rule match,0
+Sidley Austin LLP,23,Missing,Vanderbilt University,0.4940119760479042,other_or_review,low,no rule match,0
+The Hearst Family Trust,23,Missing,Northwestern University,0.49930907415937353,other_or_review,low,no rule match,0
+"The Vanguard Group, Inc.",23,Engineering,University of Pennsylvania,0.5046061722708429,other_or_review,low,no rule match,1
+"Verkada, Inc.",23,Engineering,University of California Berkeley,0.5099032703823123,other_or_review,low,no rule match,0
+"Alvarez & Marsal, Inc.",22,Economics,University of Michigan,0.5149700598802395,other_or_review,low,no rule match,0
+Berkeley Research Group LLC,22,Economics,University of Pennsylvania,0.5200368493781667,other_or_review,low,no rule match,0
+"C3.ai, Inc.",22,Engineering,University of California Berkeley,0.525103639,tech,medium,tech keyword: \bai\b,1
+GE Aerospace,22,Engineering,University of Notre Dame,0.5301704283740212,other_or_review,low,no rule match,0
+LVMH Moët Hennessy Louis Vuitton SE,22,Missing,University of California Berkeley,0.5352372178719484,other_or_review,low,no rule match,0
+Lincoln International LLC,22,Economics,University of Michigan,0.5403040073698756,other_or_review,low,no rule match,0
+"Mitsubishi UFJ Financial Group, Inc.",22,Economics,Cornell University,0.5453707968678029,finance,medium,finance keyword: \bfinancial\b,1
+"MongoDB, Inc.",22,Engineering,Princeton University,0.550437586,other_or_review,low,no rule match,1
+Piper Sandler Cos.,22,Missing,University of Notre Dame,0.5555043758636573,other_or_review,low,no rule match,0
+"Sumitomo Mitsui Financial Group, Inc.",22,Economics,Columbia University in the City of New York,0.5605711653615846,finance,medium,finance keyword: \bfinancial\b,1
+"AbbVie, Inc.",21,Engineering,Northwestern University,0.5654076462459696,other_or_review,low,no rule match,0
+"Advanced Micro Devices, Inc.",21,Engineering,Cornell University,0.5702441271303547,other_or_review,low,no rule match,0
+"Applied Intuition, Inc.",21,Engineering,University of California Berkeley,0.5750806080147397,other_or_review,low,no rule match,1
+"Coinbase Global, Inc.",21,Engineering,University of California Berkeley,0.5799170888991249,other_or_review,low,no rule match,1
+"IQVIA Holdings, Inc.",21,Missing,Brown University,0.5847535697835099,other_or_review,low,no rule match,0
+KeyCorp,21,Economics,University of Michigan,0.5895900506678949,other_or_review,low,no rule match,0
+Latham & Watkins LLP,21,Missing,Columbia University in the City of New York,0.5944265315522801,other_or_review,low,no rule match,0
+MD Investment LLC,21,Economics,University of California Berkeley,0.5992630124366651,finance,medium,finance keyword: \binvest,1
+Medtronic Plc,21,Engineering,University of California Berkeley,0.6040994933210502,other_or_review,low,no rule match,0
+"Prudential Financial, Inc.",21,Economics,Cornell University,0.6089359742054353,finance,medium,finance keyword: \bfinancial\b,1
+Schneider Electric SE,21,Engineering,University of California Berkeley,0.6137724550898204,other_or_review,low,no rule match,0
+"The Brattle Group, Inc.",21,Economics,Vanderbilt University,0.6186089359742054,other_or_review,low,no rule match,0
+"The Mount Sinai Health System, Inc.",21,Missing,Columbia University in the City of New York,0.6234454168585906,exclude,high,exclude pattern: \bhealth\b,0
+The University of Colorado,21,Engineering,University of California Berkeley,0.6282818977429756,exclude,high,exclude pattern: \buniversity\b,0
+UCLA Health Systems,21,Missing,University of California Berkeley,0.6331183786273606,exclude,high,exclude pattern: \bhealth\b,0
+United Nations (New York),21,Missing,Harvard University,0.6379548595117457,other_or_review,low,no rule match,0
+"ACS, Actividades de Construcción y Servicios SA",20,Engineering,University of California Berkeley,0.6425610317825887,other_or_review,low,no rule match,0
+AECOM,20,Engineering,Columbia University in the City of New York,0.6471672040534316,other_or_review,low,no rule match,0
+"Baird Financial Group, Inc.",20,Business,University of Notre Dame,0.6517733763242746,finance,medium,finance keyword: \bfinancial\b,1
+"Cravath, Swaine & Moore LLP",20,Missing,Yale University,0.6563795485951175,other_or_review,low,no rule match,0
+Fellowship of Catholic University Students,20,Missing,University of California Berkeley,0.6609857208659604,exclude,high,exclude pattern: \buniversity\b,0
+Indiana University,20,Missing,University of Notre Dame,0.6655918931368033,exclude,high,exclude pattern: \buniversity\b,0
+Informa Plc,20,Missing,University of Michigan,0.6701980654076463,other_or_review,low,no rule match,0
+"Jones Lang LaSalle, Inc.",20,Business,Cornell University,0.6748042376784892,other_or_review,low,no rule match,0
+"Mars, Inc.",20,Missing,University of California Berkeley,0.6794104099493321,other_or_review,low,no rule match,0
+Mayo Clinic,20,Missing,University of Michigan,0.684016582,other_or_review,low,no rule match,0
+State of Michigan,20,Missing,University of Michigan,0.688622754,exclude,high,exclude pattern: \bstate of\b,0
+The New York Times Co.,20,Missing,Harvard University,0.6932289267618609,other_or_review,low,no rule match,0
+The University of Chicago Medical Center,20,Missing,University of Chicago,0.6978350990327038,exclude,high,exclude pattern: \buniversity\b,0
+"Thermo Fisher Scientific, Inc.",20,Missing,University of California Berkeley,0.7024412713035467,other_or_review,low,no rule match,0
+"Yext, Inc.",20,Engineering,Massachusetts Institute of Technology,0.7070474435743896,other_or_review,low,no rule match,0
+Ann & Robert H. Lurie Children's Hospital of Chicago,19,Missing,Northwestern University,0.7114233072316904,exclude,high,exclude pattern: \bhospital\b,0
+Arthur J. Gallagher & Co.,19,Missing,Vanderbilt University,0.7157991708889913,other_or_review,low,no rule match,0
+Chicago Public Schools,19,Missing,Northwestern University,0.7201750345462921,other_or_review,low,no rule match,0
+City & County of San Francisco (California),19,Missing,University of California Berkeley,0.7245508982035929,other_or_review,low,no rule match,0
+Eastdil Secured LLC,19,Economics,University of Michigan,0.7289267618608936,other_or_review,low,no rule match,0
+"Gartner, Inc.",19,Missing,Cornell University,0.7333026255181944,other_or_review,low,no rule match,0
+Government of Saudi Arabia,19,Engineering,University of California Berkeley,0.7376784891754952,exclude,high,exclude pattern: \bgovernment\b,0
+HSBC Holdings Plc,19,Business,University of Michigan,0.742054353,other_or_review,low,no rule match,0
+"T. Rowe Price Group, Inc.",19,Economics,Stanford University,0.7464302164900968,other_or_review,low,no rule match,0
+Tencent Holdings Ltd.,19,Engineering,University of Michigan,0.7508060801473975,other_or_review,low,no rule match,0
+The State University of New York,19,Missing,University of Michigan,0.7551819438046983,exclude,high,exclude pattern: \buniversity\b,0
+Yeshiva University,19,Missing,Columbia University in the City of New York,0.7595578074619991,exclude,high,exclude pattern: \buniversity\b,0
+BP Plc,18,Engineering,University of Notre Dame,0.7637033625057578,other_or_review,low,no rule match,0
+Brown University Health,18,Missing,Brown University,0.7678489175495163,exclude,high,exclude pattern: \buniversity\b,0
+"Cadence Design Systems, Inc.",18,Engineering,University of California Berkeley,0.771994473,tech,medium,tech keyword: \bsystems?\b,1
+Cleary Gottlieb Steen & Hamilton LLP,18,Missing,Cornell University,0.7761400276370336,other_or_review,low,no rule match,0
+"Figma, Inc.",18,Engineering,University of California Berkeley,0.7802855826807923,other_or_review,low,no rule match,1
+George Washington University,18,Missing,University of Michigan,0.7844311377245509,exclude,high,exclude pattern: \buniversity\b,0
+"ICF International, Inc.",18,Missing,Duke University,0.7885766927683096,other_or_review,low,no rule match,0
+Japan Exchange & Teaching Program,18,Missing,University of Michigan,0.7927222478120681,other_or_review,low,no rule match,0
+New York Life Insurance Co.,18,Economics,University of California Berkeley,0.7968678028558268,other_or_review,low,no rule match,0
+Old Mission Holdings LLC,18,Engineering,Wharton School of Business at University of Pennsylvania,0.8010133578995855,other_or_review,low,no rule match,0
+Proskauer Rose LLP,18,Missing,Cornell University,0.8051589129433441,other_or_review,low,no rule match,0
+Truist Financial Corp.,18,Economics,University of Notre Dame,0.8093044679871028,finance,medium,finance keyword: \bfinancial\b,1
+"Walgreens Boots Alliance, Inc.",18,Missing,University of Michigan,0.8134500230308613,other_or_review,low,no rule match,0
+"lululemon athletica, Inc.",18,Missing,University of California Berkeley,0.817595578,other_or_review,low,no rule match,0
+AllianceBernstein LP,17,Engineering,Washington University in St. Louis,0.8215108245048365,other_or_review,low,no rule match,0
+"Crisis Text Line, Inc.",17,Missing,Washington University in St. Louis,0.8254260709350529,other_or_review,low,no rule match,0
+"Gap, Inc.",17,Missing,University of California Berkeley,0.8293413173652695,other_or_review,low,no rule match,0
+"International Rescue Committee, Inc.",17,Missing,University of California Berkeley,0.833256564,other_or_review,low,no rule match,0
+"Morningstar, Inc.",17,Economics,University of Michigan,0.8371718102257024,other_or_review,low,no rule match,0
+Roland Berger Holding Gmbh & Co. KGaA,17,Economics,Northwestern University,0.841087057,other_or_review,low,no rule match,0
+"Snowflake, Inc.",17,Engineering,University of California Berkeley,0.8450023030861354,other_or_review,low,no rule match,1
+"The MathWorks, Inc.",17,Engineering,University of Michigan,0.8489175495163519,other_or_review,low,no rule match,0
+The Rockefeller University,17,Missing,Brown University,0.8528327959465684,exclude,high,exclude pattern: \buniversity\b,0
+The State of North Carolina,17,Nursing,Duke University School of Nursing,0.8567480423767849,exclude,high,exclude pattern: \bstate of\b,0
+Trinity Partners LLC,17,Missing,Dartmouth College,0.8606632888070014,finance,medium,finance keyword: \bpartners\b,1
+Unilever Plc,17,Missing,Cornell University,0.8645785352372178,other_or_review,low,no rule match,0
+Willkie Farr & Gallagher LLP,17,Missing,Northwestern University,0.8684937816674344,other_or_review,low,no rule match,0
+Appian Corp.,16,Engineering,Duke University,0.8721787194841087,other_or_review,low,no rule match,0
+"Dell Technologies, Inc.",16,Engineering,University of Michigan,0.8758636573007831,tech,medium,tech keyword: \btechnolog,1
+"FactSet Research Systems, Inc.",16,Engineering,University of Michigan,0.8795485951174574,tech,medium,tech keyword: \bsystems?\b,0
+Michigan State University,16,Missing,University of Michigan,0.8832335329341318,exclude,high,exclude pattern: \buniversity\b,0
+Mit Electrical Engineering & Computer Science Department,16,Engineering,Massachusetts Institute of Technology,0.8869184707508061,other_or_review,low,no rule match,0
+"PayPal Holdings, Inc.",16,Engineering,University of California Berkeley,0.8906034085674804,other_or_review,low,no rule match,1
+"Regeneron Pharmaceuticals, Inc.",16,Engineering,Cornell University,0.8942883463841548,other_or_review,low,no rule match,0
+SFS Holding Corp.,16,Missing,University of Michigan,0.8979732842008291,other_or_review,low,no rule match,0
+Société Générale SA,16,Missing,Columbia University in the City of New York,0.9016582220175035,other_or_review,low,no rule match,0
+Thayer School of Engineering At Dartmouth,16,Engineering,Dartmouth College,0.9053431598341778,exclude,high,exclude pattern: \bschool\b,0
+Trinity Health Corp.,16,Missing,University of Michigan,0.9090280976508521,exclude,high,exclude pattern: \bhealth\b,0
+University of Minnesota,16,Missing,Cornell University,0.9127130354675265,exclude,high,exclude pattern: \buniversity\b,0
+"APHC, Inc.",15,Engineering,University of Michigan,0.9161676646706587,other_or_review,low,no rule match,0
+AstraZeneca PLC,15,Engineering,University of Michigan,0.9196222938737909,other_or_review,low,no rule match,0
+"BVH, Inc.",15,Engineering,University of Michigan,0.9230769230769231,other_or_review,low,no rule match,0
+Boston College,15,Missing,Stanford University,0.9265315522800552,exclude,high,exclude pattern: \bcollege\b,0
+"CBRE Group, Inc.",15,Missing,Northwestern University,0.9299861814831875,other_or_review,low,no rule match,0
+"Hyundai Motor Co., Ltd.",15,Engineering,University of Michigan,0.9334408106863197,other_or_review,low,no rule match,0
+Imperial College London,15,Engineering,University of California Berkeley,0.9368954398894519,exclude,high,exclude pattern: \bcollege\b,0
+"Leidos Holdings, Inc.",15,Engineering,University of Michigan,0.9403500690925841,other_or_review,low,no rule match,0
+Pinault Francois Family,15,Missing,Columbia University in the City of New York,0.9438046982957162,other_or_review,low,no rule match,0
+Purdue University,15,Engineering,Massachusetts Institute of Technology,0.9472593274988484,exclude,high,exclude pattern: \buniversity\b,0
+The Urban Institute,15,Missing,Rice University,0.9507139567019807,exclude,high,exclude pattern: \binstitute\b,0
+United States Attorney's Office,15,Missing,Columbia University in the City of New York,0.9541685859051129,other_or_review,low,no rule match,0
+University of Arizona,15,Missing,University of Notre Dame,0.957623215,exclude,high,exclude pattern: \buniversity\b,0
+"University of California, Irvine",15,Missing,University of California Berkeley,0.9610778443113772,exclude,high,exclude pattern: \buniversity\b,0
+"Upwork, Inc.",15,Missing,University of California Berkeley,0.9645324735145094,other_or_review,low,no rule match,0
+Acumen LLC,14,Missing,Duke University,0.9677567941040995,other_or_review,low,no rule match,0
+"Asana, Inc.",14,Engineering,Cornell University,0.9709811146936895,other_or_review,low,no rule match,0
+"Beacon Health System, Inc.",14,Missing,University of Michigan,0.9742054352832796,exclude,high,exclude pattern: \bhealth\b,0
+ByteDance Ltd. (Cayman Islands),14,Engineering,University of Michigan,0.9774297558728696,other_or_review,low,no rule match,1
+"CDM Smith, Inc.",14,Engineering,Massachusetts Institute of Technology,0.9806540764624597,other_or_review,low,no rule match,0
+Cedars-Sinai Health System,14,Missing,University of California Berkeley,0.9838783970520497,exclude,high,exclude pattern: \bhealth\b,0
+Chubb Ltd.,14,Missing,Brown University,0.9871027176416398,other_or_review,low,no rule match,0
+"DaVita, Inc.",14,Missing,University of Notre Dame,0.9903270382312298,other_or_review,low,no rule match,0
+Duke University School of Law,14,Missing,Duke University,0.9935513588208199,exclude,high,exclude pattern: \buniversity\b,0
+"Equinox Holdings, Inc.",14,Missing,University of Michigan,0.9967756794104099,other_or_review,low,no rule match,0
+"Expedia Group, Inc.",14,Engineering,University of California Berkeley,1,other_or_review,low,no rule match,1

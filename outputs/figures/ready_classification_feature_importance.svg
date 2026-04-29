@@ -3,38 +3,38 @@
 <text x="625.0" y="38" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">Ready Analysis Feature Importance</text>
 <text x="418" y="109" text-anchor="end" font-size="13" fill="#1f2937">major_te</text>
 <rect x="430" y="95" width="730.0" height="18" rx="5" fill="#6b46c1"/>
-<text x="1168.0" y="109" font-size="13" fill="#1f2937">0.468</text>
+<text x="1168.0" y="109" font-size="13" fill="#1f2937">0.477</text>
 <text x="418" y="139" text-anchor="end" font-size="13" fill="#1f2937">skill::Molecular Biology</text>
-<rect x="430" y="125" width="413.5" height="18" rx="5" fill="#6b46c1"/>
-<text x="851.5" y="139" font-size="13" fill="#1f2937">0.265</text>
+<rect x="430" y="125" width="403.0" height="18" rx="5" fill="#6b46c1"/>
+<text x="841.0" y="139" font-size="13" fill="#1f2937">0.264</text>
 <text x="418" y="169" text-anchor="end" font-size="13" fill="#1f2937">numconnections</text>
-<rect x="430" y="155" width="381.4" height="18" rx="5" fill="#6b46c1"/>
-<text x="819.4" y="169" font-size="13" fill="#1f2937">0.245</text>
+<rect x="430" y="155" width="378.6" height="18" rx="5" fill="#6b46c1"/>
+<text x="816.6" y="169" font-size="13" fill="#1f2937">0.248</text>
 <text x="418" y="199" text-anchor="end" font-size="13" fill="#1f2937">skill::Planetary Science</text>
-<rect x="430" y="185" width="363.6" height="18" rx="5" fill="#6b46c1"/>
-<text x="801.6" y="199" font-size="13" fill="#1f2937">0.233</text>
+<rect x="430" y="185" width="355.3" height="18" rx="5" fill="#6b46c1"/>
+<text x="793.3" y="199" font-size="13" fill="#1f2937">0.232</text>
 <text x="418" y="229" text-anchor="end" font-size="13" fill="#1f2937">skill::Phases of Clinical Research</text>
-<rect x="430" y="215" width="354.8" height="18" rx="5" fill="#6b46c1"/>
-<text x="792.8" y="229" font-size="13" fill="#1f2937">0.228</text>
-<text x="418" y="259" text-anchor="end" font-size="13" fill="#1f2937">skill::Construction Management Software</text>
-<rect x="430" y="245" width="329.5" height="18" rx="5" fill="#6b46c1"/>
-<text x="767.5" y="259" font-size="13" fill="#1f2937">0.211</text>
-<text x="418" y="289" text-anchor="end" font-size="13" fill="#1f2937">skill::Analytical Biochemistry</text>
-<rect x="430" y="275" width="308.2" height="18" rx="5" fill="#6b46c1"/>
-<text x="746.2" y="289" font-size="13" fill="#1f2937">0.198</text>
-<text x="418" y="319" text-anchor="end" font-size="13" fill="#1f2937">skill::Social Statistics</text>
-<rect x="430" y="305" width="288.7" height="18" rx="5" fill="#6b46c1"/>
-<text x="726.7" y="319" font-size="13" fill="#1f2937">0.185</text>
-<text x="418" y="349" text-anchor="end" font-size="13" fill="#1f2937">school_te</text>
-<rect x="430" y="335" width="283.8" height="18" rx="5" fill="#6b46c1"/>
-<text x="721.8" y="349" font-size="13" fill="#1f2937">0.182</text>
+<rect x="430" y="215" width="345.5" height="18" rx="5" fill="#6b46c1"/>
+<text x="783.5" y="229" font-size="13" fill="#1f2937">0.226</text>
+<text x="418" y="259" text-anchor="end" font-size="13" fill="#1f2937">school_te</text>
+<rect x="430" y="245" width="325.5" height="18" rx="5" fill="#6b46c1"/>
+<text x="763.5" y="259" font-size="13" fill="#1f2937">0.213</text>
+<text x="418" y="289" text-anchor="end" font-size="13" fill="#1f2937">skill::Construction Management Software</text>
+<rect x="430" y="275" width="323.0" height="18" rx="5" fill="#6b46c1"/>
+<text x="761.0" y="289" font-size="13" fill="#1f2937">0.211</text>
+<text x="418" y="319" text-anchor="end" font-size="13" fill="#1f2937">skill::Analytical Biochemistry</text>
+<rect x="430" y="305" width="307.5" height="18" rx="5" fill="#6b46c1"/>
+<text x="745.5" y="319" font-size="13" fill="#1f2937">0.201</text>
+<text x="418" y="349" text-anchor="end" font-size="13" fill="#1f2937">skill::Social Statistics</text>
+<rect x="430" y="335" width="281.4" height="18" rx="5" fill="#6b46c1"/>
+<text x="719.4" y="349" font-size="13" fill="#1f2937">0.184</text>
 <text x="418" y="379" text-anchor="end" font-size="13" fill="#1f2937">skill::Psychological Research</text>
-<rect x="430" y="365" width="283.2" height="18" rx="5" fill="#6b46c1"/>
-<text x="721.2" y="379" font-size="13" fill="#1f2937">0.182</text>
+<rect x="430" y="365" width="277.7" height="18" rx="5" fill="#6b46c1"/>
+<text x="715.7" y="379" font-size="13" fill="#1f2937">0.182</text>
 <text x="418" y="409" text-anchor="end" font-size="13" fill="#1f2937">skill::Trial Practice</text>
-<rect x="430" y="395" width="276.9" height="18" rx="5" fill="#6b46c1"/>
-<text x="714.9" y="409" font-size="13" fill="#1f2937">0.178</text>
+<rect x="430" y="395" width="272.9" height="18" rx="5" fill="#6b46c1"/>
+<text x="710.9" y="409" font-size="13" fill="#1f2937">0.178</text>
 <text x="418" y="439" text-anchor="end" font-size="13" fill="#1f2937">skill::Clinical Leadership</text>
-<rect x="430" y="425" width="272.3" height="18" rx="5" fill="#6b46c1"/>
-<text x="710.3" y="439" font-size="13" fill="#1f2937">0.175</text>
+<rect x="430" y="425" width="268.4" height="18" rx="5" fill="#6b46c1"/>
+<text x="706.4" y="439" font-size="13" fill="#1f2937">0.176</text>
 </svg>

@@ -1,0 +1,12 @@
+{
+  "rows": 424,
+  "reviewed_target_employers": 165,
+  "reviewed_non_target_employers": 259,
+  "unreviewed_employers": 0,
+  "source_files": [
+    "outputs\\tables\\employer_review\\archive_batches\\employer_target_review.csv",
+    "outputs\\tables\\employer_review\\archive_batches\\priority_unreviewed_employers.csv",
+    "outputs\\tables\\employer_review\\archive_batches\\priority_unreviewed_employers_prefilled.csv",
+    "outputs\\tables\\employer_review\\archive_batches\\priority_unreviewed_employers_batch2.csv"
+  ]
+}

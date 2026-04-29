@@ -1,0 +1,2 @@
+schools_in_test,users_in_test,min_school_size,chi_square,degrees_of_freedom,p_value_wilson_hilferty_approx,cramers_v,overall_target_rate_in_test
+22,15887,30,249.40951233412952,21,1.7291710356079794e-36,0.12529552460409013,0.6029458047460188
