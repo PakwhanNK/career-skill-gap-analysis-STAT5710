@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1250" height="315" viewBox="0 0 1250 315">
+<rect width="1250" height="315" fill="#faf7f2"/>
+<text x="625.0" y="38" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">School Coefficients: Top 3 and Bottom 3</text>
+<line x1="815.0" y1="80" x2="815.0" y2="278" stroke="#1f2937" stroke-width="1"/>
+<text x="375" y="109" text-anchor="end" font-size="13" fill="#1f2937">Johns Hopkins University</text>
+<rect x="500.0" y="95" width="315.0" height="18" rx="5" fill="#c05621"/>
+<text x="492.0" y="109" text-anchor="end" font-size="13" fill="#1f2937">-0.86</text>
+<text x="375" y="139" text-anchor="end" font-size="13" fill="#1f2937">Duke University</text>
+<rect x="703.9" y="125" width="111.1" height="18" rx="5" fill="#c05621"/>
+<text x="695.9" y="139" text-anchor="end" font-size="13" fill="#1f2937">-0.30</text>
+<text x="375" y="169" text-anchor="end" font-size="13" fill="#1f2937">University of Notre Dame</text>
+<rect x="731.6" y="155" width="83.4" height="18" rx="5" fill="#c05621"/>
+<text x="723.6" y="169" text-anchor="end" font-size="13" fill="#1f2937">-0.23</text>
+<text x="375" y="199" text-anchor="end" font-size="13" fill="#1f2937">Massachusetts Institute of Technology</text>
+<rect x="815.0" y="185" width="105.6" height="18" rx="5" fill="#0f766e"/>
+<text x="928.6" y="199" text-anchor="start" font-size="13" fill="#1f2937">+0.29</text>
+<text x="375" y="229" text-anchor="end" font-size="13" fill="#1f2937">Rice University</text>
+<rect x="815.0" y="215" width="107.8" height="18" rx="5" fill="#0f766e"/>
+<text x="930.8" y="229" text-anchor="start" font-size="13" fill="#1f2937">+0.30</text>
+<text x="375" y="259" text-anchor="end" font-size="13" fill="#1f2937">California Institute of Technology</text>
+<rect x="815.0" y="245" width="229.8" height="18" rx="5" fill="#0f766e"/>
+<text x="1052.8" y="259" text-anchor="start" font-size="13" fill="#1f2937">+0.63</text>
+</svg>

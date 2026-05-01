@@ -1,9 +1,0 @@
-{
-  "reviewed_rows": 20846,
-  "target_rows": 10066,
-  "non_target_rows": 10780,
-  "excluded_unreviewed_rows": 36962,
-  "distinct_non_missing_unreviewed_employers": 20464,
-  "remaining_unreviewed_employers_ge_34_users": 1,
-  "largest_non_missing_unreviewed_employer_count": 34
-}

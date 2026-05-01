@@ -24,6 +24,8 @@ data/processed/ready_analysis/core_user_ids.txt
 # Older exploratory runs; final deliverables are in outputs/.
 supply_side_outputs/
 top_company_prediction/
+archive/
+outputs/tables/archive/
 
 # Generated row-level/model artifacts. Keep aggregate tables, figures, report, and scripts.
 outputs/*.parquet

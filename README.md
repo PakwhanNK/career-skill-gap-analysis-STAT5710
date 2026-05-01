@@ -23,8 +23,14 @@ The seniority restriction is intentional. Sensitivity checks showed that `senior
 ## Repository Structure
 
 ```text
+data/
+  raw/
+    Local raw Revelio/WRDS CSV exports. Ignored by Git because they are large row-level data.
+  processed/ready_analysis/
+    Local processed overlap-ready CSVs plus tracked summary files.
+
 scripts/
-  Reproducible data preparation, employer review, EDA, and modeling scripts.
+  Reproducible data preparation, employer review, EDA, modeling, and figure-generation scripts.
 
 outputs/tables/final/
   Aggregate result tables, model reports, sensitivity checks, and the main summary report.
@@ -36,16 +42,16 @@ outputs/tables/modeling_data/
   Row-level modeling datasets generated locally for analysis. These are not committed.
 
 outputs/figures/
-  Report-ready SVG visualizations for EDA, classification, seniority sensitivity, and 2024-vs-2025 comparisons.
+  Generated SVG visualizations for EDA, classification, PCA/k-means, and 2024-vs-2025 comparisons.
 
-data/processed/ready_analysis/
-  Non-row-level summary files for the cleaned analysis universe.
+reports/
+  Final LaTeX/Markdown report files.
 
-archive/
-  Older exploratory outputs moved out of the active analysis path.
+reports/figures/
+  Compact Overleaf-ready figure bundle referenced by `reports/final_report.tex`.
 ```
 
-Raw and row-level processed data are intentionally not committed. The `.gitignore` excludes raw CSVs, processed CSVs, user ID files, and row-level modeling datasets to avoid pushing large or potentially sensitive data.
+Raw and row-level processed data are intentionally kept local. The `.gitignore` excludes raw CSVs, processed CSVs, user ID files, archive folders, and row-level modeling datasets to avoid pushing large or potentially sensitive data to GitHub.
 
 ## Reproducible Pipeline
 
@@ -65,6 +71,14 @@ This script builds the seniority-2 analysis outputs, including:
 - 2024-vs-2025 observed role landscape comparisons.
 
 Supporting scripts in `scripts/` reconstruct the first-job scope, merge manual employer reviews, build overlap-ready files, and generate earlier reviewed-only diagnostic outputs.
+
+The final report source is:
+
+```text
+reports/final_report.tex
+```
+
+For Overleaf, upload `reports/final_report.tex` together with the contents of `reports/figures/`.
 
 ## Main Outputs
 

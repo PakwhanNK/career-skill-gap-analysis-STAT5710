@@ -114,11 +114,11 @@ The k-means clusters reveal distinct skill-profile groups. The largest cluster h
 
 | Cluster | Users | Target Users | Target Rate | Main Skill Theme |
 |---:|---:|---:|---:|---|
-| 4 | 14,572 | 9,593 | 65.8% | Broad professional/software/data skills |
+| 0 | 71 | 3 | 4.2% | Construction/project-engineering skills |
 | 1 | 149 | 9 | 6.0% | Legal writing and litigation skills |
 | 2 | 718 | 32 | 4.5% | Research, molecular biology, MATLAB |
-| 0 | 71 | 3 | 4.2% | Construction/project-engineering skills |
 | 3 | 256 | 3 | 1.2% | Clinical research and trial management |
+| 4 | 14,572 | 9,593 | 65.8% | Broad professional/software/data skills |
 | 5 | 233 | 1 | 0.4% | Healthcare, nursing, CPR, Epic EMR |
 
 ![Reviewed target-employer rate by skill cluster](C:/Users/knich/Projects/career-skill-gap-analysis-STAT5710/reports/overleaf_figures/skill_cluster_target_rates.pdf)

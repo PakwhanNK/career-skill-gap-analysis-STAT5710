@@ -66,6 +66,8 @@ def normalize_school_display(value: str) -> str:
     value = str(value or "").strip()
     if value == "Wharton School of Business at University of Pennsylvania":
         return "University of Pennsylvania"
+    if value == "Duke University School of Nursing":
+        return "Duke University"
     return value
 
 
@@ -1308,9 +1310,12 @@ def build_skill_pca_kmeans_outputs(df: pd.DataFrame) -> None:
         })
         for skill, count in top_skills.items():
             skill_rows.append({"cluster": int(cluster), "skill": skill, "users": int(count), "share": float(count / len(subset))})
-    cluster_profile = pd.DataFrame(cluster_rows).sort_values("target_rate", ascending=False)
+    cluster_profile = pd.DataFrame(cluster_rows).sort_values("cluster")
     cluster_profile.to_csv(OUT_TABLES / "ready_skill_cluster_profiles.csv", index=False)
-    pd.DataFrame(skill_rows).to_csv(OUT_TABLES / "ready_skill_cluster_top_skills.csv", index=False)
+    pd.DataFrame(skill_rows).sort_values(["cluster", "users"], ascending=[True, False]).to_csv(
+        OUT_TABLES / "ready_skill_cluster_top_skills.csv",
+        index=False,
+    )
     render_scatter(
         "Skill Clusters in PCA Space",
         components[:, 0],

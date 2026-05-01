@@ -10,8 +10,8 @@ cluster,skill,users,share
 1,Legal Writing,149,1.0
 1,Civil Litigation,148,0.9932885906040269
 1,Westlaw,145,0.9731543624161074
-1,Commercial Litigation,144,0.9664429530201343
-1,Corporate Law,138,0.9261744966442953
+1,Commercial Litigation,144,0.9664429530201344
+1,Corporate Law,138,0.9261744966442952
 1,Legal Research Skills,130,0.87248322147651
 1,Trial Practice,128,0.8590604026845637
 1,Motivational Speaking,123,0.825503355704698
@@ -35,10 +35,10 @@ cluster,skill,users,share
 4,Powerpoint Animation,8364,0.5739774910787813
 4,C++,6518,0.4472961844633544
 4,Engaging Public Speaker,5505,0.3777793027724403
-4,Structured Query Language Procedural Language,5236,0.35931924238265167
-4,Teamwork,5161,0.35417238539665113
-4,Python Flask,5096,0.34971177600878395
-4,Pivot Tables,5084,0.34888827889102386
+4,Structured Query Language Procedural Language,5236,0.3593192423826516
+4,Teamwork,5161,0.3541723853966511
+4,Python Flask,5096,0.3497117760087839
+4,Pivot Tables,5084,0.3488882788910238
 5,Healthcare Management,231,0.9914163090128756
 5,Basic Life Support Certification,220,0.944206008583691
 5,Epic EMR,214,0.9184549356223176

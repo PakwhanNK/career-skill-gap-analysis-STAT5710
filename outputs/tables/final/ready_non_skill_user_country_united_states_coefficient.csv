@@ -1,0 +1,2 @@
+user_country,users,target_users,target_rate,overall_target_rate,comparison,feature,log_odds_coefficient,odds_ratio,std_error,z_value,p_value,direction
+United States,14626,8712,0.5956515793791878,0.6026001625101569,United States vs all other user_country values,user_country::United States,-0.3307216031786964,0.7184051429114284,0.06106907590757558,-5.415533119892365,6.110635917492081e-08,decreases odds vs rest

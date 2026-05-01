@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1250" height="375" viewBox="0 0 1250 375">
+<rect width="1250" height="375" fill="#faf7f2"/>
+<text x="625.0" y="38" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">User Country Coefficients: One-vs-Rest Non-Skill Logistic Models</text>
+<line x1="815.0" y1="80" x2="815.0" y2="338" stroke="#1f2937" stroke-width="1"/>
+<text x="375" y="109" text-anchor="end" font-size="13" fill="#1f2937">Singapore</text>
+<rect x="743.1" y="95" width="71.9" height="18" rx="5" fill="#c05621"/>
+<text x="735.1" y="109" text-anchor="end" font-size="13" fill="#1f2937">-0.40</text>
+<text x="375" y="139" text-anchor="end" font-size="13" fill="#1f2937">United States</text>
+<rect x="756.2" y="125" width="58.8" height="18" rx="5" fill="#c05621"/>
+<text x="748.2" y="139" text-anchor="end" font-size="13" fill="#1f2937">-0.33</text>
+<text x="375" y="169" text-anchor="end" font-size="13" fill="#1f2937">United Kingdom</text>
+<rect x="792.7" y="155" width="22.3" height="18" rx="5" fill="#c05621"/>
+<text x="784.7" y="169" text-anchor="end" font-size="13" fill="#1f2937">-0.13</text>
+<text x="375" y="199" text-anchor="end" font-size="13" fill="#1f2937">Canada</text>
+<rect x="805.9" y="185" width="9.1" height="18" rx="5" fill="#c05621"/>
+<text x="797.9" y="199" text-anchor="end" font-size="13" fill="#1f2937">-0.05</text>
+<text x="375" y="229" text-anchor="end" font-size="13" fill="#1f2937">China</text>
+<rect x="815.0" y="215" width="44.7" height="18" rx="5" fill="#0f766e"/>
+<text x="867.7" y="229" text-anchor="start" font-size="13" fill="#1f2937">+0.25</text>
+<text x="375" y="259" text-anchor="end" font-size="13" fill="#1f2937">Missing</text>
+<rect x="815.0" y="245" width="62.9" height="18" rx="5" fill="#0f766e"/>
+<text x="885.9" y="259" text-anchor="start" font-size="13" fill="#1f2937">+0.35</text>
+<text x="375" y="289" text-anchor="end" font-size="13" fill="#1f2937">Hong Kong</text>
+<rect x="815.0" y="275" width="127.5" height="18" rx="5" fill="#0f766e"/>
+<text x="950.5" y="289" text-anchor="start" font-size="13" fill="#1f2937">+0.72</text>
+<text x="375" y="319" text-anchor="end" font-size="13" fill="#1f2937">Japan</text>
+<rect x="815.0" y="305" width="315.0" height="18" rx="5" fill="#0f766e"/>
+<text x="1138.0" y="319" text-anchor="start" font-size="13" fill="#1f2937">+1.77</text>
+</svg>

@@ -253,7 +253,7 @@ def main() -> None:
     model_cmp = pd.read_csv(TABLES / "ready_classification_model_comparison.csv").dropna(subset=["test_auc"])
     vertical_bar(OUT / "model_comparison_auc.pdf", "Classification Model Comparison: AUC", model_cmp["model"].tolist(), model_cmp["test_auc"].tolist(), lambda x: f"{x:.3f}", max_y=1)
 
-    cluster = pd.read_csv(TABLES / "ready_skill_cluster_profiles.csv")
+    cluster = pd.read_csv(TABLES / "ready_skill_cluster_profiles.csv").sort_values("cluster")
     horizontal_bar(OUT / "skill_cluster_target_rates.pdf", "Reviewed Target Rate by Skill Cluster", [f"Cluster {int(x)}" for x in cluster["cluster"]], cluster["target_rate"].tolist(), pct)
 
     elbow = pd.read_csv(TABLES / "ready_skill_kmeans_elbow.csv")
@@ -279,7 +279,7 @@ def main() -> None:
         "target",
         {0: "Non-target", 1: "Target"},
     )
-    cluster_profiles = pd.read_csv(TABLES / "ready_skill_cluster_profiles.csv")
+    cluster_profiles = pd.read_csv(TABLES / "ready_skill_cluster_profiles.csv").sort_values("cluster")
     cluster_names = {int(row["cluster"]): f"Cluster {int(row['cluster'])}" for _, row in cluster_profiles.iterrows()}
     scatter(
         OUT / "skill_clusters_in_pca_space.pdf",
